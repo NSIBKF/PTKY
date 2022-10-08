@@ -40,7 +40,6 @@ class TestActivity : AppCompatActivity() {
             0 -> {bindingCharacter = ActivityTestCharacterBinding.inflate(layoutInflater)
                 setContentView(bindingCharacter.root)
                 builderOfSubtest()
-                Log.e("TAG", "0 when")
             }
 
             //_____________________________________________________________________________________________________________
@@ -53,7 +52,6 @@ class TestActivity : AppCompatActivity() {
                 bindingLife = ActivityTestLifeBinding.inflate(layoutInflater)
                 setContentView(bindingLife.root)
                 builderOfSubtest()
-                Log.e("TAG", "1 when")
             }
 
             //-------------------------------------------------------------------------------------------------------------
@@ -66,7 +64,6 @@ class TestActivity : AppCompatActivity() {
                 bindingCareer = ActivityTestCareerBinding.inflate(layoutInflater)
                 setContentView(bindingCareer.root)
                 builderOfSubtest()
-                Log.e("TAG", "2 when")
             }
 
             //-------------------------------------------------------------------------------------------------------------
@@ -119,6 +116,7 @@ class TestActivity : AppCompatActivity() {
                 bindingPsychodiagnostics = ActivityTestPsychodiagnosticsBinding.inflate(layoutInflater)
                 setContentView(bindingPsychodiagnostics.root)
                 builderOfSubtest()
+                Log.e("TAG", "Test_6_when")
             }
 
             //________________________________________________________________________________________________________________
@@ -129,7 +127,6 @@ class TestActivity : AppCompatActivity() {
     @SuppressLint("SetTextI18n")
     private fun builderOfSubtest() {
         val subtestCode = intent.getStringExtra("codesOfSubtests")
-        Log.e("TAG", subtestCode.toString())
         when (subtestCode) {
 
             //                              Кодировка тестов
@@ -146,55 +143,103 @@ class TestActivity : AppCompatActivity() {
                 countOfOptions = 3
                 bindingCharacter.textTitle.text = "Пять черт характера"
                 bindingCharacter.textNumberQuestion.text = "$numberOfCurrentTest/$countQuestions"
-                countOptions()
+                countOptionsCharacter()
             }
             "02" -> {
                 val countQuestions = 45
                 countOfOptions = 4
                 bindingCharacter.textTitle.text = "Характер топ"
                 bindingCharacter.textNumberQuestion.text = "$numberOfCurrentTest/$countQuestions"
-                countOptions()
+                countOptionsCharacter()
             }
             "11" -> {
                 val countQuestions = 45
                 countOfOptions = 4
                 bindingLife.textTitle.text = "Тест 1 по теме жизнь"
                 bindingLife.textNumberQuestion.text = "$numberOfCurrentTest/$countQuestions"
-                countOptions()
-                Log.e("TAG", "11 when")
+                countOptionsLife()
             }
             "12" -> {
                 val countQuestions = 45
                 countOfOptions = 4
                 bindingLife.textTitle.text = "Тест 2 по теме жизнь"
                 bindingLife.textNumberQuestion.text = "$numberOfCurrentTest/$countQuestions"
-                countOptions()
+                countOptionsLife()
             }
             "21" -> {
                 val countQuestions = 45
                 countOfOptions = 4
                 bindingCareer.textTitle.text = "Опросник уровня удовлетворенности работой"
                 bindingCareer.textNumberQuestion.text = "$numberOfCurrentTest/$countQuestions"
-                countOptions()
+                countOptionsCareer()
             }
             "22" -> {
                 val countQuestions = 45
                 countOfOptions = 4
                 bindingCareer.textTitle.text = "Тест на трудоголизм. Диагностика уровня занятости и зависимости от работы."
                 bindingCareer.textNumberQuestion.text = "$numberOfCurrentTest/$countQuestions"
-                countOptions()
+                countOptionsCareer()
             }
             "31" -> {
                 val countQuestions = 45
                 countOfOptions = 4
                 bindingMental.textTitle.text = "Тест 1 по теме умственные"
                 bindingMental.textNumberQuestion.text = "$numberOfCurrentTest/$countQuestions"
-                countOptions()
+                countOptionsMental()
+            }
+            "32" -> {
+                val countQuestions = 45
+                countOfOptions = 4
+                bindingMental.textTitle.text = "Тест 2 по теме умственные"
+                bindingMental.textNumberQuestion.text = "$numberOfCurrentTest/$countQuestions"
+                countOptionsMental()
+            }
+            "41" -> {
+                val countQuestions = 45
+                countOfOptions = 4
+                bindingFamily.textTitle.text = "Тест 1 по теме семья"
+                bindingFamily.textNumberQuestion.text = "$numberOfCurrentTest/$countQuestions"
+                countOptionsFamily()
+            }
+            "42" -> {
+                val countQuestions = 45
+                countOfOptions = 4
+                bindingFamily.textTitle.text = "Тест 2 по теме семья"
+                bindingFamily.textNumberQuestion.text = "$numberOfCurrentTest/$countQuestions"
+                countOptionsFamily()
+            }
+            "51" -> {
+                val countQuestions = 45
+                countOfOptions = 4
+                bindingSex.textTitle.text = "Тест 1 по теме секс"
+                bindingSex.textNumberQuestion.text = "$numberOfCurrentTest/$countQuestions"
+                countOptionsSex()
+            }
+            "52" -> {
+                val countQuestions = 45
+                countOfOptions = 4
+                bindingSex.textTitle.text = "Тест 2 по теме секс"
+                bindingSex.textNumberQuestion.text = "$numberOfCurrentTest/$countQuestions"
+                countOptionsSex()
+            }
+            "61" -> {
+                val countQuestions = 45
+                countOfOptions = 4
+                bindingPsychodiagnostics.textTitle.text = "Тест 1 по теме психодиагностика"
+                bindingPsychodiagnostics.textNumberQuestion.text = "$numberOfCurrentTest/$countQuestions"
+                countOptionsPsychodiagnostics()
+            }
+            "62" -> {
+                val countQuestions = 45
+                countOfOptions = 4
+                bindingPsychodiagnostics.textTitle.text = "Тест 2 по теме психодиагностика"
+                bindingPsychodiagnostics.textNumberQuestion.text = "$numberOfCurrentTest/$countQuestions"
+                countOptionsPsychodiagnostics()
             }
         }
     }
 
-    private fun countOptions() {
+    private fun countOptionsCharacter() {
         when (countOfOptions) {
             2 -> {
                 bindingCharacter.option3.visibility = View.GONE
@@ -213,6 +258,144 @@ class TestActivity : AppCompatActivity() {
             }
             5 -> {
                 bindingCharacter.option6.visibility = View.GONE
+            }
+        }
+    }
+
+    private fun countOptionsLife() {
+        when (countOfOptions) {
+            2 -> {
+                bindingLife.option3.visibility = View.GONE
+                bindingLife.option4.visibility = View.GONE
+                bindingLife.option5.visibility = View.GONE
+                bindingLife.option6.visibility = View.GONE
+            }
+            3 -> {
+                bindingLife.option4.visibility = View.GONE
+                bindingLife.option5.visibility = View.GONE
+                bindingLife.option6.visibility = View.GONE
+            }
+            4 -> {
+                bindingLife.option5.visibility = View.GONE
+                bindingLife.option6.visibility = View.GONE
+            }
+            5 -> {
+                bindingLife.option6.visibility = View.GONE
+            }
+        }
+    }
+
+    private fun countOptionsCareer() {
+        when (countOfOptions) {
+            2 -> {
+                bindingCareer.option3.visibility = View.GONE
+                bindingCareer.option4.visibility = View.GONE
+                bindingCareer.option5.visibility = View.GONE
+                bindingCareer.option6.visibility = View.GONE
+            }
+            3 -> {
+                bindingCareer.option4.visibility = View.GONE
+                bindingCareer.option5.visibility = View.GONE
+                bindingCareer.option6.visibility = View.GONE
+            }
+            4 -> {
+                bindingCareer.option5.visibility = View.GONE
+                bindingCareer.option6.visibility = View.GONE
+            }
+            5 -> {
+                bindingCareer.option6.visibility = View.GONE
+            }
+        }
+    }
+
+    private fun countOptionsMental() {
+        when (countOfOptions) {
+            2 -> {
+                bindingMental.option3.visibility = View.GONE
+                bindingMental.option4.visibility = View.GONE
+                bindingMental.option5.visibility = View.GONE
+                bindingMental.option6.visibility = View.GONE
+            }
+            3 -> {
+                bindingMental.option4.visibility = View.GONE
+                bindingMental.option5.visibility = View.GONE
+                bindingMental.option6.visibility = View.GONE
+            }
+            4 -> {
+                bindingMental.option5.visibility = View.GONE
+                bindingMental.option6.visibility = View.GONE
+            }
+            5 -> {
+                bindingMental.option6.visibility = View.GONE
+            }
+        }
+    }
+
+    private fun countOptionsFamily() {
+        when (countOfOptions) {
+            2 -> {
+                bindingFamily.option3.visibility = View.GONE
+                bindingFamily.option4.visibility = View.GONE
+                bindingFamily.option5.visibility = View.GONE
+                bindingFamily.option6.visibility = View.GONE
+            }
+            3 -> {
+                bindingFamily.option4.visibility = View.GONE
+                bindingFamily.option5.visibility = View.GONE
+                bindingFamily.option6.visibility = View.GONE
+            }
+            4 -> {
+                bindingFamily.option5.visibility = View.GONE
+                bindingFamily.option6.visibility = View.GONE
+            }
+            5 -> {
+                bindingFamily.option6.visibility = View.GONE
+            }
+        }
+    }
+
+    private fun countOptionsSex() {
+        when (countOfOptions) {
+            2 -> {
+                bindingSex.option3.visibility = View.GONE
+                bindingSex.option4.visibility = View.GONE
+                bindingSex.option5.visibility = View.GONE
+                bindingSex.option6.visibility = View.GONE
+            }
+            3 -> {
+                bindingSex.option4.visibility = View.GONE
+                bindingSex.option5.visibility = View.GONE
+                bindingSex.option6.visibility = View.GONE
+            }
+            4 -> {
+                bindingSex.option5.visibility = View.GONE
+                bindingSex.option6.visibility = View.GONE
+            }
+            5 -> {
+                bindingSex.option6.visibility = View.GONE
+            }
+        }
+    }
+
+    private fun countOptionsPsychodiagnostics() {
+        when (countOfOptions) {
+            2 -> {
+                bindingPsychodiagnostics.option3.visibility = View.GONE
+                bindingPsychodiagnostics.option4.visibility = View.GONE
+                bindingPsychodiagnostics.option5.visibility = View.GONE
+                bindingPsychodiagnostics.option6.visibility = View.GONE
+            }
+            3 -> {
+                bindingPsychodiagnostics.option4.visibility = View.GONE
+                bindingPsychodiagnostics.option5.visibility = View.GONE
+                bindingPsychodiagnostics.option6.visibility = View.GONE
+            }
+            4 -> {
+                bindingPsychodiagnostics.option5.visibility = View.GONE
+                bindingPsychodiagnostics.option6.visibility = View.GONE
+            }
+            5 -> {
+                bindingPsychodiagnostics.option6.visibility = View.GONE
             }
         }
     }

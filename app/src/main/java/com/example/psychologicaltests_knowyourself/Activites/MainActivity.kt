@@ -9,7 +9,7 @@ import com.example.psychologicaltests_knowyourself.databinding.ActivityMainBindi
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
-    val codesOfTests = arrayOf(0, 1, 2, 3, 4, 5, 6)
+    private val codesOfTests = arrayOf(0, 1, 2, 3, 4, 5, 6)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun comeToActivity(testCode : Int) {
+    private fun comeToActivity(testCode: Int) {
         val intent = Intent(this, chooseTestActivity::class.java)
         intent.putExtra("codesOfTests",codesOfTests[testCode])
         startActivity(intent)
