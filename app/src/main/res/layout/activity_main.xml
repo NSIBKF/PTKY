@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    tools:context="com.example.psychologicaltests_knowyourself.Activites.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/human_brain_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/themeText"
+
+        android:textColor="@color/black"
+        android:textSize="36sp"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/characterBtn"
+                    android:layout_width="285dp"
+                    android:layout_height="73dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/btn_bg_main"
+
+
+                    android:text="@string/character"
+                    android:layout_gravity="top|center"
+
+                    />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/lifeBtn"
+                    android:layout_width="285dp"
+                    android:layout_height="73dp"
+                    android:layout_marginTop="130dp"
+                    android:background="@drawable/btn_bg_main"
+
+                    android:text="@string/life"
+                    android:layout_gravity="top|center"
+
+                    />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/careerBtn"
+                    android:layout_width="285dp"
+                    android:layout_height="73dp"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="230dp"
+
+                    android:background="@drawable/btn_bg_main"
+                    android:text="@string/career"
+
+                    />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/mentalBtn"
+                    android:layout_width="285dp"
+                    android:layout_height="73dp"
+                    android:layout_marginTop="330dp"
+                    android:background="@drawable/btn_bg_main"
+
+                    android:text="@string/mental"
+                    android:layout_gravity="top|center"
+
+                    />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/familyBtn"
+                    android:layout_width="285dp"
+                    android:layout_height="73dp"
+                    android:layout_marginTop="430dp"
+                    android:background="@drawable/btn_bg_main"
+
+                    android:text="@string/family"
+                    android:layout_gravity="top|center"
+
+                    />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/sexBtn"
+                    android:layout_width="285dp"
+                    android:layout_height="73dp"
+                    android:layout_marginTop="530dp"
+                    android:background="@drawable/btn_bg_main"
+
+                    android:text="@string/sex"
+                    android:layout_gravity="top|center"
+
+                    />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/psychodiagnosticsBtn"
+                    android:layout_width="285dp"
+                    android:layout_height="73dp"
+                    android:layout_marginTop="630dp"
+                    android:background="@drawable/btn_bg_main"
+
+                    android:text="@string/psychodiagnostics"
+                    android:layout_gravity="top|center"
+
+                    android:layout_marginBottom="20dp"
+
+                    />
+
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+
+    </FrameLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

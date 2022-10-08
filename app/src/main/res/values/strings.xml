@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Psychological Tests - Know Yourself</string>
+    <string name="get_started">Get Started</string>
+    <string name="PTKY_text">Психологические тесты - узнай себя!</string>
+    <string name="themeText">Выберите тему теста</string>
+    <string name="character">Характер</string>
+    <string name="life">Жизнь</string>
+    <string name="career">Карьера</string>
+    <string name="mental">Умственные</string>
+    <string name="family">Семья</string>
+    <string name="sex">Секс</string>
+    <string name="psychodiagnostics">Психодиагностика</string>
+
+
+    <string name="test1OfCharacter">Пять черт характера</string>
+    <string name="test2OfCharacter">Тест 2 по теме Характер</string>
+
+    <string name="test1OfLife">Тест 1 по теме жизнь</string>
+    <string name="test2OfLife">Тест 2 по теме жизнь</string>
+
+    <string name="test1OfCareer">Опросник уровня удовлетворенности работой</string>
+    <string name="test2OfCareer">Тест на трудоголизм. Диагностика уровня занятости и зависимости от работы.</string>
+
+    <string name="test1OfMental">Тест 1 умственные</string>
+    <string name="test2OfMental">Тест 2 умственные</string>
+
+    <string name="test1OfFamily">Тест-опросник удовлетворенности браком</string>
+    <string name="test2ofFamily">Тест 2 семьи</string>
+
+    <string name="test1OfPsychodiagnostics">Диагностики депрессивных состояний</string>
+    <string name="test2OfPsychodiagnostics">Диагностика наличия травмы, связанной с развитием</string>
+
+    <string name="test1OfSex">Тест 1 секс</string>
+    <string name="test2OfSex">Тест 2 секс</string>
+</resources>
