@@ -21,8 +21,18 @@
         <entry key="..\:/PTKY/app/src/main/res/layout/activity_main2.xml" value="0.358695652173913" />
         <entry key="..\:/PTKY/app/src/main/res/layout/activity_test.xml" value="0.358695652173913" />
         <entry key="..\:/PTKY/app/src/main/res/layout/activity_test1.xml" value="0.358695652173913" />
+        <entry key="..\:/PTKY/app/src/main/res/layout/activity_test_career.xml" value="0.26458333333333334" />
+        <entry key="..\:/PTKY/app/src/main/res/layout/activity_test_character.xml" value="0.3" />
+        <entry key="..\:/PTKY/app/src/main/res/layout/activity_test_dom_parsing.xml" value="0.358695652173913" />
+        <entry key="..\:/PTKY/app/src/main/res/layout/activity_test_family.xml" value="0.26458333333333334" />
+        <entry key="..\:/PTKY/app/src/main/res/layout/activity_test_life.xml" value="0.26458333333333334" />
+        <entry key="..\:/PTKY/app/src/main/res/layout/activity_test_mental.xml" value="0.2635416666666667" />
+        <entry key="..\:/PTKY/app/src/main/res/layout/activity_test_psychodiadnostics.xml" value="0.2635416666666667" />
+        <entry key="..\:/PTKY/app/src/main/res/layout/activity_test_psychodiagnostics.xml" value="0.26458333333333334" />
+        <entry key="..\:/PTKY/app/src/main/res/layout/activity_test_sex.xml" value="0.26458333333333334" />
         <entry key="..\:/PTKY/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2075" />
         <entry key="..\:/PTKY/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.196" />
+        <entry key="..\:/PTKY/app/src/main/res/xml/test_detail.xml" value="0.27049180327868855" />
       </map>
     </option>
   </component>

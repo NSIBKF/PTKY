@@ -65,8 +65,7 @@
                     android:layout_height="73dp"
                     android:layout_marginTop="30dp"
                     android:background="@drawable/btn_bg_main"
-
-
+                    android:textColor="@color/black"
                     android:text="@string/character"
                     android:layout_gravity="top|center"
 
@@ -79,7 +78,7 @@
                     android:layout_height="73dp"
                     android:layout_marginTop="130dp"
                     android:background="@drawable/btn_bg_main"
-
+                    android:textColor="@color/black"
                     android:text="@string/life"
                     android:layout_gravity="top|center"
 
@@ -92,7 +91,7 @@
                     android:layout_height="73dp"
                     android:layout_gravity="top|center"
                     android:layout_marginTop="230dp"
-
+                    android:textColor="@color/black"
                     android:background="@drawable/btn_bg_main"
                     android:text="@string/career"
 
@@ -105,7 +104,7 @@
                     android:layout_height="73dp"
                     android:layout_marginTop="330dp"
                     android:background="@drawable/btn_bg_main"
-
+                    android:textColor="@color/black"
                     android:text="@string/mental"
                     android:layout_gravity="top|center"
 
@@ -117,7 +116,7 @@
                     android:layout_height="73dp"
                     android:layout_marginTop="430dp"
                     android:background="@drawable/btn_bg_main"
-
+                    android:textColor="@color/black"
                     android:text="@string/family"
                     android:layout_gravity="top|center"
 
@@ -129,7 +128,7 @@
                     android:layout_height="73dp"
                     android:layout_marginTop="530dp"
                     android:background="@drawable/btn_bg_main"
-
+                    android:textColor="@color/black"
                     android:text="@string/sex"
                     android:layout_gravity="top|center"
 
@@ -142,7 +141,7 @@
                     android:layout_height="73dp"
                     android:layout_marginTop="630dp"
                     android:background="@drawable/btn_bg_main"
-
+                    android:textColor="@color/black"
                     android:text="@string/psychodiagnostics"
                     android:layout_gravity="top|center"
 
