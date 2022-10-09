@@ -4,7 +4,6 @@ package com.example.psychologicaltests_knowyourself.Activites
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import com.example.psychologicaltests_knowyourself.databinding.*
 
 class chooseTestActivity : AppCompatActivity() {
@@ -30,7 +29,7 @@ class chooseTestActivity : AppCompatActivity() {
 
     private fun inflater() {
         val testCode = intent.getIntExtra("codesOfTests", 0)
-        when(testCode){
+        when (testCode) {
 
             //________________________________Отрисовка тестов с Характером_______________________________________________
 
@@ -123,14 +122,12 @@ class chooseTestActivity : AppCompatActivity() {
                     onBackPressed()
                 }
                 bindingCharacter.test1OfCharacter.setOnClickListener {
-                    val intent = Intent(this, TestActivity::class.java)
-                    intent.putExtra("codesOfTests", testCode)
+                    val intent = Intent(this, TestDescriptionActivity::class.java)
                     intent.putExtra("codesOfSubtests", "01")
                     startActivity(intent)
                 }
                 bindingCharacter.test2OfCharacter.setOnClickListener {
-                    val intent = Intent(this, TestActivity::class.java)
-                    intent.putExtra("codesOfTests", testCode)
+                    val intent = Intent(this, TestDescriptionActivity::class.java)
                     intent.putExtra("codesOfSubtests", "02")
                     startActivity(intent)
                 }
@@ -147,14 +144,12 @@ class chooseTestActivity : AppCompatActivity() {
                     onBackPressed()
                 }
                 bindingLife.test1OfLife.setOnClickListener {
-                    val intent = Intent(this, TestActivity::class.java)
-                    intent.putExtra("codesOfTests", testCode)
+                    val intent = Intent(this, TestDescriptionActivity::class.java)
                     intent.putExtra("codesOfSubtests", "11")
                     startActivity(intent)
                 }
                 bindingLife.test2OfLife.setOnClickListener {
-                    val intent = Intent(this, TestActivity::class.java)
-                    intent.putExtra("codesOfTests", testCode)
+                    val intent = Intent(this, TestDescriptionActivity::class.java)
                     intent.putExtra("codesOfSubtests", "12")
                     startActivity(intent)
                 }
@@ -171,14 +166,12 @@ class chooseTestActivity : AppCompatActivity() {
                     onBackPressed()
                 }
                 bindingCareer.test1OfCareer.setOnClickListener {
-                    val intent = Intent(this, TestActivity::class.java)
-                    intent.putExtra("codesOfTests", testCode)
+                    val intent = Intent(this, TestDescriptionActivity::class.java)
                     intent.putExtra("codesOfSubtests", "21")
                     startActivity(intent)
                 }
                 bindingCareer.test2OfCareer.setOnClickListener {
-                    val intent = Intent(this, TestActivity::class.java)
-                    intent.putExtra("codesOfTests", testCode)
+                    val intent = Intent(this, TestDescriptionActivity::class.java)
                     intent.putExtra("codesOfSubtests", "22")
                     startActivity(intent)
                 }
@@ -195,14 +188,12 @@ class chooseTestActivity : AppCompatActivity() {
                     onBackPressed()
                 }
                 bindingMental.test1OfMental.setOnClickListener {
-                    val intent = Intent(this, TestActivity::class.java)
-                    intent.putExtra("codesOfTests", testCode)
+                    val intent = Intent(this, TestDescriptionActivity::class.java)
                     intent.putExtra("codesOfSubtests", "31")
                     startActivity(intent)
                 }
                 bindingMental.test2OfMental.setOnClickListener {
-                    val intent = Intent(this, TestActivity::class.java)
-                    intent.putExtra("codesOfTests", testCode)
+                    val intent = Intent(this, TestDescriptionActivity::class.java)
                     intent.putExtra("codesOfSubtests", "32")
                     startActivity(intent)
                 }
@@ -219,14 +210,12 @@ class chooseTestActivity : AppCompatActivity() {
                     onBackPressed()
                 }
                 bindingFamily.test1OfFamily.setOnClickListener {
-                    val intent = Intent(this, TestActivity::class.java)
-                    intent.putExtra("codesOfTests", testCode)
+                    val intent = Intent(this, TestDescriptionActivity::class.java)
                     intent.putExtra("codesOfSubtests", "41")
                     startActivity(intent)
                 }
                 bindingFamily.test2OfFamily.setOnClickListener {
-                    val intent = Intent(this, TestActivity::class.java)
-                    intent.putExtra("codesOfTests", testCode)
+                    val intent = Intent(this, TestDescriptionActivity::class.java)
                     intent.putExtra("codesOfSubtests", "42")
                     startActivity(intent)
                 }
@@ -243,14 +232,12 @@ class chooseTestActivity : AppCompatActivity() {
                     onBackPressed()
                 }
                 bindingSex.test1OfSex.setOnClickListener {
-                    val intent = Intent(this, TestActivity::class.java)
-                    intent.putExtra("codesOfTests", testCode)
+                    val intent = Intent(this, TestDescriptionActivity::class.java)
                     intent.putExtra("codesOfSubtests", "51")
                     startActivity(intent)
                 }
                 bindingSex.test2OfSex.setOnClickListener {
-                    val intent = Intent(this, TestActivity::class.java)
-                    intent.putExtra("codesOfTests", testCode)
+                    val intent = Intent(this, TestDescriptionActivity::class.java)
                     intent.putExtra("codesOfSubtests", "52")
                     startActivity(intent)
                 }
@@ -267,14 +254,12 @@ class chooseTestActivity : AppCompatActivity() {
                     onBackPressed()
                 }
                 bindingPsychodiagnostics.test1OfPsychodiagnostics.setOnClickListener {
-                    val intent = Intent(this, TestActivity::class.java)
-                    intent.putExtra("codesOfTests", testCode)
+                    val intent = Intent(this, TestDescriptionActivity::class.java)
                     intent.putExtra("codesOfSubtests", "61")
                     startActivity(intent)
                 }
                 bindingPsychodiagnostics.test2OfPsychodiagnostics.setOnClickListener {
-                    val intent = Intent(this, TestActivity::class.java)
-                    intent.putExtra("codesOfTests", testCode)
+                    val intent = Intent(this, TestDescriptionActivity::class.java)
                     intent.putExtra("codesOfSubtests", "62")
                     startActivity(intent)
                 }
