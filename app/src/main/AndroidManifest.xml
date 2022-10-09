@@ -14,12 +14,14 @@
         android:theme="@style/Theme.PsychologicalTestsKnowYourself"
         tools:targetApi="31">
         <activity
+            android:name=".Activites.ResultActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activites.chooseTestActivity"
             android:exported="false" />
         <activity
             android:name=".Activites.TestActivity"
             android:exported="false" />
-
         <activity
             android:name=".Activites.MainActivity"
             android:exported="true" />

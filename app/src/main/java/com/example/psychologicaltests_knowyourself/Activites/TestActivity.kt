@@ -1,6 +1,7 @@
 package com.example.psychologicaltests_knowyourself.Activites
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -410,6 +411,10 @@ class TestActivity : AppCompatActivity() {
                 bindingCharacter.imageBack.setOnClickListener {
                     onBackPressed()
                 }
+                //Тест нового активити
+//                bindingCharacter.option1.setOnClickListener {
+//                    startActivity(Intent(this, ResultActivity::class.java))
+//                }
             }
 
             //_____________________________________________________________________________________________________________
