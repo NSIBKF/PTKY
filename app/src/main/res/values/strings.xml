@@ -32,6 +32,6 @@
 
     <string name="test1OfSex">Тест 1 секс</string>
     <string name="test2OfSex">Тест 2 секс</string>
-    <string name="next">Next</string>
     <string name="backToTests">Вернуться к тестам</string>
+    <string name="startTest">Начать тест</string>
 </resources>

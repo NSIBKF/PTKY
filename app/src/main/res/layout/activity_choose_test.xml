@@ -9,11 +9,11 @@
 
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="@string/family"
+        android:text="@string/character"
         android:textColor="@color/black"
 
         android:textSize="32sp"
@@ -32,7 +32,7 @@
         android:layout_marginEnd="70dp"
         android:src="@drawable/ic_back"
         android:tint="#AA155C"
-        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintEnd_toStartOf="@+id/textTitle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -43,7 +43,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2">
+        app:layout_constraintTop_toBottomOf="@+id/textTitle">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -57,7 +57,7 @@
                 >
 
                 <FrameLayout
-                    android:id="@+id/test1OfFamily"
+                    android:id="@+id/test1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
@@ -69,7 +69,7 @@
                     android:background="@drawable/bg_test_btn">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/imageTest1OfFamily"
+                        android:id="@+id/imageTest1"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_marginStart="25dp"
@@ -79,24 +79,24 @@
 
 
                     <TextView
-                        android:id="@+id/textTest1OfFamily"
+                        android:id="@+id/textTest1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:gravity="center"
                         android:layout_gravity="center"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginBottom="5dp"
                         android:layout_marginStart="70dp"
+                        android:layout_marginTop="5dp"
                         android:layout_marginEnd="50dp"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center"
 
-                        android:text="@string/test1OfFamily"
+                        android:text="@string/test1OfCharacter"
                         android:textColor="@color/black" />
 
 
                 </FrameLayout>
 
                 <FrameLayout
-                    android:id="@+id/test2OfFamily"
+                    android:id="@+id/test2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
@@ -108,7 +108,7 @@
                     android:background="@drawable/bg_test_btn">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/imageTest2OfFamily"
+                        android:id="@+id/imageTest2"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_marginStart="25dp"
@@ -118,17 +118,17 @@
 
 
                     <TextView
-                        android:id="@+id/textTest2OfFamily"
+                        android:id="@+id/textTest2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:gravity="center"
                         android:layout_gravity="center"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginBottom="5dp"
                         android:layout_marginStart="70dp"
+                        android:layout_marginTop="5dp"
                         android:layout_marginEnd="50dp"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center"
 
-                        android:text="@string/test2ofFamily"
+                        android:text="@string/test2OfCharacter"
                         android:textColor="@color/black" />
 
 

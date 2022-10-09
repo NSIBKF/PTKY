@@ -3,22 +3,42 @@ package com.example.psychologicaltests_knowyourself.Activites
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.psychologicaltests_knowyourself.R
+import androidx.activity.result.ActivityResult
+import androidx.activity.result.ActivityResultLauncher
+import androidx.activity.result.contract.ActivityResultContracts
 import com.example.psychologicaltests_knowyourself.databinding.*
 
 class TestDescriptionActivity : AppCompatActivity() {
+    private val resultIsReady = 100
+
     private lateinit var binding: ActivityTestDescriptionBinding
+    private var testLauncher: ActivityResultLauncher<Intent>? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityTestDescriptionBinding.inflate(layoutInflater)
-        fillDescription()
-        setContentView(binding.root)
+        ifResultIsReadyFinish()
+        inflater()
     }
 
     override fun onStart() {
         super.onStart()
         setListeners()
+    }
+
+    private fun ifResultIsReadyFinish() {
+        /* conditions for any ways of using result codes from TestActivity */
+        testLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
+                result: ActivityResult ->
+            if (result.resultCode == resultIsReady) {
+                finish()
+            }
+        }
+    }
+
+    private fun inflater() {
+        binding = ActivityTestDescriptionBinding.inflate(layoutInflater)
+        fillDescription()
+        setContentView(binding.root)
     }
 
     private fun fillDescription() {
@@ -138,7 +158,7 @@ class TestDescriptionActivity : AppCompatActivity() {
                 binding.imageBack.setOnClickListener {
                     onBackPressed()
                 }
-                binding.nextBtn.setOnClickListener {
+                binding.startTest.setOnClickListener {
                     comeToTestActivity()
                 }
             }
@@ -147,7 +167,7 @@ class TestDescriptionActivity : AppCompatActivity() {
         val subtestCode = intent.getStringExtra("codesOfSubtests")
         val intent = Intent(this, TestActivity::class.java)
         intent.putExtra("codesOfSubtests", subtestCode)
-        startActivity(intent)
+        testLauncher?.launch(intent)
     }
 
 }

@@ -17,6 +17,12 @@ class ResultActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
+        setListeners()
+    }
 
+    private fun setListeners() {
+        binding.backToTests.setOnClickListener {
+            onBackPressed()
+        }
     }
 }

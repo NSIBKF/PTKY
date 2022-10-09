@@ -4,7 +4,6 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import com.example.psychologicaltests_knowyourself.databinding.*
 
@@ -23,13 +22,12 @@ class TestActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         setListeners()
-
     }
 
     private fun inflater() {
-            binding = ActivityTestBinding.inflate(layoutInflater)
-                setContentView(binding.root)
-                builderOfSubtest()
+        binding = ActivityTestBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        builderOfSubtest()
     }
 
 
@@ -47,51 +45,52 @@ class TestActivity : AppCompatActivity() {
             //  6* - Тесты про психодиагностику   |
 
             "01" -> {
-                lateFillingTest(30, 3, "Пять черт характера")
+                lateTestFilling(30, 3, "Пять черт характера")
             }
             "02" -> {
-                lateFillingTest(45, 4, "Характер топ")
+                lateTestFilling(45, 4, "Характер топ")
             }
             "11" -> {
-                lateFillingTest(45, 4, "Тест 1 по теме жизнь")
+                lateTestFilling(45, 4, "Тест 1 по теме жизнь")
             }
             "12" -> {
-                lateFillingTest(45, 4, "Тест 2 по теме жизнь")
+                lateTestFilling(45, 4, "Тест 2 по теме жизнь")
             }
             "21" -> {
-                lateFillingTest(45, 4, "Опросник уровня удовлетворенности работой")
+                lateTestFilling(45, 4, "Опросник уровня удовлетворенности работой")
             }
             "22" -> {
-                lateFillingTest(45, 6, "Тест на трудоголизм. Диагностика уровня занятости и зависимости от работы")
+                lateTestFilling(45, 6, "Тест на трудоголизм. Диагностика уровня занятости и зависимости от работы")
             }
             "31" -> {
-                lateFillingTest(45, 3, "Тест 1 по теме умственные")
+                lateTestFilling(45, 3, "Тест 1 по теме умственные")
             }
             "32" -> {
-                lateFillingTest(45, 3, "Тест 2 по теме умственные")
+                lateTestFilling(45, 3, "Тест 2 по теме умственные")
             }
             "41" -> {
-                lateFillingTest(45, 3, "Тест 1 по теме семья")
+                lateTestFilling(45, 3, "Тест 1 по теме семья")
             }
             "42" -> {
-                lateFillingTest(45, 3, "Тест 2 по теме семья")
+                lateTestFilling(45, 3, "Тест 2 по теме семья")
             }
             "51" -> {
-                lateFillingTest(45, 3, "Тест 1 по теме секс")
+                lateTestFilling(45, 3, "Тест 1 по теме секс")
             }
             "52" -> {
-                lateFillingTest(45, 3, "Тест 2 по теме секс")
+                lateTestFilling(45, 3, "Тест 2 по теме секс")
             }
             "61" -> {
-                lateFillingTest(45, 3, "Тест 1 по теме психодиагностика")
+                lateTestFilling(45, 3, "Тест 1 по теме психодиагностика")
             }
             "62" -> {
-                lateFillingTest(45, 3, "Тест 2 по теме психодиагностика")
+                lateTestFilling(45, 3, "Тест 2 по теме психодиагностика")
             }
         }
     }
 
-    private fun lateFillingTest(countQuestions: Int, countOfOptions: Int, title: String) {
+    @SuppressLint("SetTextI18n")
+    private fun lateTestFilling(countQuestions: Int, countOfOptions: Int, title: String) {
         this@TestActivity.countOfOptions = countOfOptions
         binding.textTitle.text = title
         binding.textNumberQuestion.text = "$numberOfCurrentTest/$countQuestions"
@@ -136,7 +135,9 @@ class TestActivity : AppCompatActivity() {
             onBackPressed()
         }
         binding.option1.setOnClickListener {
+            setResult(100)
             startActivity(Intent(this, ResultActivity::class.java))
+            finish()
         }
     }
 }
