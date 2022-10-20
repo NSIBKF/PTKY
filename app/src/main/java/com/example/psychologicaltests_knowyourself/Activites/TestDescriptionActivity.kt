@@ -3,10 +3,12 @@ package com.example.psychologicaltests_knowyourself.Activites
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import com.example.psychologicaltests_knowyourself.databinding.*
+import java.io.IOException
 
 class TestDescriptionActivity : AppCompatActivity() {
     private val resultIsReady = 100
@@ -43,13 +45,21 @@ class TestDescriptionActivity : AppCompatActivity() {
 
     private fun fillDescription() {
         val subtestCode = intent.getStringExtra("codesOfSubtests")
+        var testQuestion = TestQuestion()
+        try {
+            val parser = XmlPullParserHandler()
+            val istream = assets.open("character_test_detail.xml")
+            testQuestion = parser.parseForTestDescription(istream)
+        } catch (e: IOException) {
+            e.printStackTrace()
+        }
             when (subtestCode) {
 
                 //________________________________Отрисовка тестов с Характером_______________________________________________
 
                 "01" -> {
                     binding.textTitle.text = "Пять черт характера"
-                    binding.textDescription.text = "ОПИСАНИЕ"
+                    binding.textDescription.text = testQuestion.description
                 }
                 "02" -> {
                     binding.textTitle.text = "Характер топ"

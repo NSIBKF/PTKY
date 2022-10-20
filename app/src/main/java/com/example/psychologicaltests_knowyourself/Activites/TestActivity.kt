@@ -6,11 +6,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.example.psychologicaltests_knowyourself.databinding.*
+import java.io.IOException
 
 class TestActivity : AppCompatActivity() {
 
-    private var countOfOptions: Int = 2
-    private var numberOfCurrentTest = 1
+    private var countOfAnswers: Int = 2
+    private var countOfQuestions: Int = 1
+    private var numberOfCurrentQuestion = 1
+    private lateinit var fileNameOfTestComponents: String
 
     private lateinit var binding: ActivityTestBinding
 
@@ -45,60 +48,119 @@ class TestActivity : AppCompatActivity() {
             //  6* - Тесты про психодиагностику   |
 
             "01" -> {
-                lateTestFilling(30, 3, "Пять черт характера")
+                lateTestFilling("character_test_detail.xml")
             }
             "02" -> {
-                lateTestFilling(45, 4, "Характер топ")
+                lateTestFilling("character_test_detail.xml")
             }
             "11" -> {
-                lateTestFilling(45, 4, "Тест 1 по теме жизнь")
+                lateTestFilling("character_test_detail.xml")
             }
             "12" -> {
-                lateTestFilling(45, 4, "Тест 2 по теме жизнь")
+                lateTestFilling("character_test_detail.xml")
             }
             "21" -> {
-                lateTestFilling(45, 4, "Опросник уровня удовлетворенности работой")
+                lateTestFilling("character_test_detail.xml")
             }
             "22" -> {
-                lateTestFilling(45, 6, "Тест на трудоголизм. Диагностика уровня занятости и зависимости от работы")
+                lateTestFilling("character_test_detail.xml")
             }
             "31" -> {
-                lateTestFilling(45, 3, "Тест 1 по теме умственные")
+                lateTestFilling("character_test_detail.xml")
             }
             "32" -> {
-                lateTestFilling(45, 3, "Тест 2 по теме умственные")
+                lateTestFilling("character_test_detail.xml")
             }
             "41" -> {
-                lateTestFilling(45, 3, "Тест 1 по теме семья")
+                lateTestFilling("character_test_detail.xml")
             }
             "42" -> {
-                lateTestFilling(45, 3, "Тест 2 по теме семья")
+                lateTestFilling("character_test_detail.xml")
             }
             "51" -> {
-                lateTestFilling(45, 3, "Тест 1 по теме секс")
+                lateTestFilling("character_test_detail.xml")
             }
             "52" -> {
-                lateTestFilling(45, 3, "Тест 2 по теме секс")
+                lateTestFilling("character_test_detail.xml")
             }
             "61" -> {
-                lateTestFilling(45, 3, "Тест 1 по теме психодиагностика")
+                lateTestFilling("character_test_detail.xml")
             }
             "62" -> {
-                lateTestFilling(45, 3, "Тест 2 по теме психодиагностика")
+                lateTestFilling("character_test_detail.xml")
             }
         }
     }
 
     @SuppressLint("SetTextI18n")
-    private fun lateTestFilling(countQuestions: Int, countOfOptions: Int, title: String) {
-        this@TestActivity.countOfOptions = countOfOptions
-        binding.textTitle.text = title
-        binding.textNumberQuestion.text = "$numberOfCurrentTest/$countQuestions"
-        countOptions()
+    private fun lateTestFilling(fileNameFromAssets: String) {
+        this@TestActivity.fileNameOfTestComponents = fileNameFromAssets
+        tryToParseForTestAndFillTest()
+        countAnswers()
     }
 
-    private fun countOptions() {
-        when (countOfOptions) {
+    private fun assignValueToCountOfAnswersAndQuestions(testQuestion: TestQuestion) {
+        this@TestActivity.countOfAnswers = testQuestion.countAnswers
+        this@TestActivity.countOfQuestions = testQuestion.countQuestions
+    }
+
+    private fun tryToParseForTestAndFillTest() {
+        try {
+            val parser = XmlPullParserHandler()
+            val istream = assets.open(fileNameOfTestComponents)
+            val testQuestion = parser.parseForTest(istream, 1)
+            assignValueToCountOfAnswersAndQuestions(testQuestion)
+            fillTitle(testQuestion)
+            fillQuestionAndAnswersAndCurrentTableOfProgress(testQuestion)
+        } catch (e: IOException) {
+            e.printStackTrace()
+        }
+    }
+
+    @SuppressLint("SetTextI18n")
+    private fun fillTitle(testQuestion: TestQuestion) {
+        binding.textTitle.text = testQuestion.title
+    }
+
+    private fun fillQuestionAndAnswersAndCurrentTableOfProgress(testQuestion: TestQuestion) {
+        binding.textQuestion.text = testQuestion.question
+        binding.textNumberQuestion.text = "$numberOfCurrentQuestion/${this@TestActivity.countOfQuestions}"
+        when (countOfAnswers) {
+            2 -> {
+                binding.option1.text = testQuestion.listOfAnswers[0]
+                binding.option2.text = testQuestion.listOfAnswers[1]
+            }
+            3 -> {
+                binding.option1.text = testQuestion.listOfAnswers[0]
+                binding.option2.text = testQuestion.listOfAnswers[1]
+                binding.option3.text = testQuestion.listOfAnswers[2]
+            }
+            4 -> {
+                binding.option1.text = testQuestion.listOfAnswers[0]
+                binding.option2.text = testQuestion.listOfAnswers[1]
+                binding.option3.text = testQuestion.listOfAnswers[2]
+                binding.option4.text = testQuestion.listOfAnswers[3]
+            }
+            5 -> {
+                binding.option1.text = testQuestion.listOfAnswers[0]
+                binding.option2.text = testQuestion.listOfAnswers[1]
+                binding.option3.text = testQuestion.listOfAnswers[2]
+                binding.option4.text = testQuestion.listOfAnswers[3]
+                binding.option5.text = testQuestion.listOfAnswers[4]
+            }
+            else -> {
+                binding.option1.text = testQuestion.listOfAnswers[0]
+                binding.option2.text = testQuestion.listOfAnswers[1]
+                binding.option3.text = testQuestion.listOfAnswers[2]
+                binding.option4.text = testQuestion.listOfAnswers[3]
+                binding.option5.text = testQuestion.listOfAnswers[4]
+                binding.option6.text = testQuestion.listOfAnswers[5]
+            }
+        }
+    }
+
+    private fun countAnswers() {
+        when (countOfAnswers) {
             2 -> {
                 binding.option3.visibility = View.GONE
                 binding.option4.visibility = View.GONE
@@ -130,14 +192,47 @@ class TestActivity : AppCompatActivity() {
         }
     }
 
+    @SuppressLint("SetTextI18n")
     private fun setListeners() {
         binding.imageBack.setOnClickListener {
             onBackPressed()
         }
         binding.option1.setOnClickListener {
+            loadQuestionOrShowResult()
+        }
+        binding.option2.setOnClickListener {
+            loadQuestionOrShowResult()
+        }
+        binding.option3.setOnClickListener {
+            loadQuestionOrShowResult()
+        }
+        binding.option4.setOnClickListener {
+            loadQuestionOrShowResult()
+        }
+        binding.option5.setOnClickListener {
+            loadQuestionOrShowResult()
+        }
+        binding.option6.setOnClickListener {
+            loadQuestionOrShowResult()
+        }
+    }
+
+    @SuppressLint("SetTextI18n")
+    private fun loadQuestionOrShowResult() {
+        if (numberOfCurrentQuestion >= countOfQuestions) {
             setResult(100)
             startActivity(Intent(this, ResultActivity::class.java))
             finish()
+        } else {
+            ++numberOfCurrentQuestion
+            try {
+                val parser = XmlPullParserHandler()
+                val istream = assets.open(fileNameOfTestComponents)
+                val testQuestion = parser.parseForTest(istream, numberOfCurrentQuestion)
+                fillQuestionAndAnswersAndCurrentTableOfProgress(testQuestion)
+            } catch (e: IOException) {
+                e.printStackTrace()
+            }
         }
     }
 }

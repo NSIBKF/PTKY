@@ -34,6 +34,7 @@ class chooseTestActivity : AppCompatActivity() {
             //________________________________Отрисовка тестов с Характером_______________________________________________
 
             0 -> {
+                //parse()
                 val arrayOfTexts = arrayOf(binding.textTest1, binding.textTest2)
                 val arrayOfTextsStrings = arrayOf("Характер", "Пять черт характера")
                 val arrayOfIcons = arrayOf(binding.imageTest1, binding.imageTest2)
