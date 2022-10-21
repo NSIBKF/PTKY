@@ -10,9 +10,11 @@ import java.io.IOException
 
 class TestActivity : AppCompatActivity() {
 
+    private val testResultIsReady = 100
     private var countOfAnswers: Int = 2
     private var countOfQuestions: Int = 1
     private var numberOfCurrentQuestion = 1
+    private var score = 0
     private lateinit var fileNameOfTestComponents: String
 
     private lateinit var binding: ActivityTestBinding
@@ -32,7 +34,6 @@ class TestActivity : AppCompatActivity() {
         setContentView(binding.root)
         builderOfSubtest()
     }
-
 
     @SuppressLint("SetTextI18n")
     private fun builderOfSubtest() {
@@ -99,11 +100,6 @@ class TestActivity : AppCompatActivity() {
         countAnswers()
     }
 
-    private fun assignValueToCountOfAnswersAndQuestions(testQuestion: TestQuestion) {
-        this@TestActivity.countOfAnswers = testQuestion.countAnswers
-        this@TestActivity.countOfQuestions = testQuestion.countQuestions
-    }
-
     private fun tryToParseForTestAndFillTest() {
         try {
             val parser = XmlPullParserHandler()
@@ -117,11 +113,17 @@ class TestActivity : AppCompatActivity() {
         }
     }
 
+    private fun assignValueToCountOfAnswersAndQuestions(testQuestion: TestQuestion) {
+        this@TestActivity.countOfAnswers = testQuestion.countAnswers
+        this@TestActivity.countOfQuestions = testQuestion.countQuestions
+    }
+
     @SuppressLint("SetTextI18n")
     private fun fillTitle(testQuestion: TestQuestion) {
         binding.textTitle.text = testQuestion.title
     }
 
+    @SuppressLint("SetTextI18n")
     private fun fillQuestionAndAnswersAndCurrentTableOfProgress(testQuestion: TestQuestion) {
         binding.textQuestion.text = testQuestion.question
         binding.textNumberQuestion.text = "$numberOfCurrentQuestion/${this@TestActivity.countOfQuestions}"
@@ -220,8 +222,10 @@ class TestActivity : AppCompatActivity() {
     @SuppressLint("SetTextI18n")
     private fun loadQuestionOrShowResult() {
         if (numberOfCurrentQuestion >= countOfQuestions) {
-            setResult(100)
-            startActivity(Intent(this, ResultActivity::class.java))
+            setResult(testResultIsReady)
+            val intent = Intent(this, ResultActivity::class.java)
+            intent.putExtra("title", binding.textTitle.text)
+            startActivity(intent)
             finish()
         } else {
             ++numberOfCurrentQuestion
@@ -235,4 +239,44 @@ class TestActivity : AppCompatActivity() {
             }
         }
     }
+
+//    private fun countScore(): Int {
+//        var result: Int
+//        when (intent.getStringExtra("codesOfSubtests")) {
+//            "01" -> {
+//                result = test01SumScore()
+//            }
+//            "02" -> {
+//            }
+//            "11" -> {
+//            }
+//            "12" -> {
+//            }
+//            "21" -> {
+//            }
+//            "22" -> {
+//            }
+//            "31" -> {
+//            }
+//            "32" -> {
+//            }
+//            "41" -> {
+//            }
+//            "42" -> {
+//            }
+//            "51" -> {
+//            }
+//            "52" -> {
+//            }
+//            "61" -> {
+//            }
+//            "62" -> {
+//            }
+//        }
+//        return result
+//    }
+
+//    private fun test01SumScore(): Int {
+//
+//    }
 }

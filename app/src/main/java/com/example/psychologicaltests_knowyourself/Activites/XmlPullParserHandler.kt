@@ -24,12 +24,15 @@ class XmlPullParserHandler {
                 val tagName = parser.name
                 when (eventType) {
                     XmlPullParser.TEXT -> text = parser.text
-                    XmlPullParser.END_TAG -> if (tagName.equals("description", ignoreCase = true)) {
+                    XmlPullParser.END_TAG -> if (tagName.equals("title", ignoreCase = true)) {
+                            testQuestion!!.title = text
+                        } else if (tagName.equals("description", ignoreCase = true)) {
                             testQuestion!!.description = text
+                            break
                         }
                     }
                 eventType = parser.next()
-                }
+            }
         } catch (e: XmlPullParserException) {
             e.printStackTrace()
         } catch (e: IOException) {

@@ -11,6 +11,7 @@ class ResultActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityResultBinding.inflate(layoutInflater)
+        binding.textTitle.text = intent.getStringExtra("title")
         setContentView(binding.root)
 
     }

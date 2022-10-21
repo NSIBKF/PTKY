@@ -13,7 +13,7 @@
         android:layout_height="150dp"
 
         android:layout_marginTop="20dp"
-        android:background="@drawable/human_brain_icon"
+        android:background="@drawable/ic_main_ptky"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -29,7 +29,8 @@
         android:text="@string/themeText"
 
         android:textColor="@color/black"
-        android:textSize="36sp"
+        android:textSize="22sp"
+        android:fontFamily="@font/pt_serif_bold"
 
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,104 +51,258 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:overScrollMode="never"
-
-            >
+            android:overScrollMode="never">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center">
 
-                <androidx.appcompat.widget.AppCompatButton
+                <FrameLayout
                     android:id="@+id/characterBtn"
-                    android:layout_width="285dp"
-                    android:layout_height="73dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="20dp"
                     android:layout_marginTop="30dp"
-                    android:background="@drawable/btn_bg_main"
-                    android:textColor="@color/black"
-                    android:text="@string/character"
-                    android:layout_gravity="top|center"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/btn_bg_main">
 
-                    />
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_gravity="center|start"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_character" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginStart="95dp"
+                        android:text="Характер"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/pt_sans_regular"/>
 
-                <androidx.appcompat.widget.AppCompatButton
+                </FrameLayout>
+
+                <FrameLayout
                     android:id="@+id/lifeBtn"
-                    android:layout_width="285dp"
-                    android:layout_height="73dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="20dp"
                     android:layout_marginTop="130dp"
-                    android:background="@drawable/btn_bg_main"
-                    android:textColor="@color/black"
-                    android:text="@string/life"
-                    android:layout_gravity="top|center"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/btn_bg_main">
 
-                    />
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_gravity="center|start"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_life" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginStart="95dp"
+                        android:text="Жизнь"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/pt_sans_regular"/>
 
-                <androidx.appcompat.widget.AppCompatButton
+                </FrameLayout>
+
+                <FrameLayout
                     android:id="@+id/careerBtn"
-                    android:layout_width="285dp"
-                    android:layout_height="73dp"
-                    android:layout_gravity="top|center"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="20dp"
                     android:layout_marginTop="230dp"
-                    android:textColor="@color/black"
-                    android:background="@drawable/btn_bg_main"
-                    android:text="@string/career"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/btn_bg_main">
 
-                    />
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_gravity="center|start"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_career"/>
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginStart="95dp"
+                        android:text="Карьера"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/pt_sans_regular"/>
 
-                <androidx.appcompat.widget.AppCompatButton
+                </FrameLayout>
+
+                <FrameLayout
                     android:id="@+id/mentalBtn"
-                    android:layout_width="285dp"
-                    android:layout_height="73dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="20dp"
                     android:layout_marginTop="330dp"
-                    android:background="@drawable/btn_bg_main"
-                    android:textColor="@color/black"
-                    android:text="@string/mental"
-                    android:layout_gravity="top|center"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/btn_bg_main">
 
-                    />
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_gravity="center|start"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_mental" />
 
-                <androidx.appcompat.widget.AppCompatButton
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginStart="95dp"
+                        android:text="Умственные"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/pt_sans_regular"/>
+
+                </FrameLayout>
+
+                <FrameLayout
                     android:id="@+id/familyBtn"
-                    android:layout_width="285dp"
-                    android:layout_height="73dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="20dp"
                     android:layout_marginTop="430dp"
-                    android:background="@drawable/btn_bg_main"
-                    android:textColor="@color/black"
-                    android:text="@string/family"
-                    android:layout_gravity="top|center"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/btn_bg_main">
 
-                    />
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_gravity="center|start"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_family" />
 
-                <androidx.appcompat.widget.AppCompatButton
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginStart="95dp"
+                        android:text="Семья"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/pt_sans_regular"/>
+
+                </FrameLayout>
+
+                <FrameLayout
                     android:id="@+id/sexBtn"
-                    android:layout_width="285dp"
-                    android:layout_height="73dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="20dp"
                     android:layout_marginTop="530dp"
-                    android:background="@drawable/btn_bg_main"
-                    android:textColor="@color/black"
-                    android:text="@string/sex"
-                    android:layout_gravity="top|center"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/btn_bg_main">
 
-                    />
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_gravity="center|start"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_sex" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginStart="95dp"
+                        android:text="Секс"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/pt_sans_regular"/>
 
-                <androidx.appcompat.widget.AppCompatButton
+                </FrameLayout>
+
+                <FrameLayout
                     android:id="@+id/psychodiagnosticsBtn"
-                    android:layout_width="285dp"
-                    android:layout_height="73dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="20dp"
                     android:layout_marginTop="630dp"
-                    android:background="@drawable/btn_bg_main"
-                    android:textColor="@color/black"
-                    android:text="@string/psychodiagnostics"
-                    android:layout_gravity="top|center"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/btn_bg_main">
 
-                    android:layout_marginBottom="20dp"
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_gravity="center|start"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_psychodiagnostics" />
 
-                    />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginStart="95dp"
+                        android:layout_gravity="center"
+                        android:text="Психодиагностика"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/pt_sans_regular"/>
+
+                </FrameLayout>
 
 
 

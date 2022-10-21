@@ -2,57 +2,218 @@
 
 <test>
     <!--количество вопросов и ответов-->
-    <cnt_questions>7</cnt_questions>
+    <cnt_questions>30</cnt_questions>
     <cnt_answers>3</cnt_answers>
     <!--описание-->
     <title>Пять черт характера</title>
     <description>Тест Пять черт характера был разработан психологом С. Грачёвым в 1982 году. При помощи данной методики диагностируются пять основных черт характера: замкнутость - общительность, эмоциональная устойчивость - неустойчивость, практицизм - романтизм, расчетливость - прямолинейность, самоконтроль и отсутствие последнего. Тест предназначен для лиц подросткового, юношеского возраста и взрослых. Время проведения теста 20-30 мин. Инструкция к тесту. Вам будут предложены 30 утверждений, касающиеся вашего характера. Отвечайте, долго не раздумывая, вы можете выбрать один их трех вариантов ответов: а, б, в.</description>
-    <option>
-        <question1>Я бы вполне мог жить один, вдали от людей.</question1>
-        <answer>а) да</answer>
-        <answer>б) иногда</answer>
-        <answer>в) нет.</answer>
-    </option>
+            <option>
+                <question1>Я бы вполне мог жить один, вдали от людей.</question1>
+                <answer>а) да</answer>
+                <answer>б) иногда</answer>
+                <answer>в) нет.</answer>
+            </option>
 
-    <option>
-        <question2>Иногда я неважно себя чувствую без особой на то причины.</question2>
-        <answer>а) да</answer>
-        <answer>б) не знаю</answer>
-        <answer>в) нет</answer>
-    </option>
+            <option>
+                <question2>Иногда я неважно себя чувствую без особой на то причины.</question2>
+                <answer>а) да</answer>
+                <answer>б) не знаю</answer>
+                <answer>в) нет</answer>
+            </option>
 
-    <option>
-        <question3>Читая о каком-либо происшествии, я интересуюсь подробностями:</question3>
-        <answer>а) всегда</answer>
-        <answer>б) иногда</answer>
-        <answer>в) редко</answer>
-    </option>
+            <option>
+                <question3>Читая о каком-либо происшествии, я интересуюсь подробностями:</question3>
+                <answer>а) всегда</answer>
+                <answer>б) иногда</answer>
+                <answer>в) редко</answer>
+            </option>
 
-    <option>
-        <question4>Когда друзья подшучивают надо мной, я обычно смеюсь вместе с ними и вовсе не обижаюсь.</question4>
-        <answer>а) верно</answer>
-        <answer>б) не знаю</answer>
-        <answer>в) неверно</answer>
-    </option>
+            <option>
+                <question4>Когда друзья подшучивают надо мной, я обычно смеюсь вместе с ними и вовсе не обижаюсь.</question4>
+                <answer>а) верно</answer>
+                <answer>б) не знаю</answer>
+                <answer>в) неверно</answer>
+            </option>
 
-    <option>
-        <question5>То, что в некоторой степени отвлекает мое внимание,</question5>
-        <answer>а) раздражает меня</answer>
-        <answer>б) нечто среднее</answer>
-        <answer>в) не беспокоит меня совершенно.</answer>
-    </option>
+            <option>
+                <question5>То, что в некоторой степени отвлекает мое внимание,</question5>
+                <answer>а) раздражает меня</answer>
+                <answer>б) нечто среднее</answer>
+                <answer>в) не беспокоит меня совершенно.</answer>
+            </option>
 
-    <option>
-        <question6>Мне нравится друг</question6>
-        <answer>а) интересы которого имеют деловой и практический характер</answer>
-        <answer>б) не знаю</answer>
-        <answer>в) который отличается глубоко продуманными взглядами на жизнь.</answer>
-    </option>
+            <option>
+                <question6>Мне нравится друг</question6>
+                <answer>а) интересы которого имеют деловой и практический характер</answer>
+                <answer>б) не знаю</answer>
+                <answer>в) который отличается глубоко продуманными взглядами на жизнь.</answer>
+            </option>
 
-    <option>
-        <question7>На предприятии мне было бы интереснее:</question7>
-        <answer>а) работать с машинами и механизмами</answer>
-        <answer>б) трудно сказать</answer>
-        <answer>в) беседовать с людьми, заниматься общественной работой.</answer>
-    </option>
+            <option>
+                <question7>На предприятии мне было бы интереснее:</question7>
+                <answer>а) работать с машинами и механизмами</answer>
+                <answer>б) трудно сказать</answer>
+                <answer>в) беседовать с людьми, заниматься общественной работой.</answer>
+            </option>
+
+            <option>
+                <question8>У меня всегда хватает энергии, когда это необходимо.</question8>
+                <answer>а) да</answer>
+                <answer>б) трудно сказать</answer>
+                <answer>в) нет.</answer>
+            </option>
+
+            <option>
+                <question9>Я скорее раскрыл бы свои сокровенные мысли:</question9>
+                <answer>а) моим хорошим друзьям</answer>
+                <answer>б) не знаю</answer>
+                <answer>в) в своем дневнике.</answer>
+            </option>
+
+            <option>
+                <question10>Я могу спокойно слушать, как другие люди высказывают идеи, противоположные тем, в которые я твердо верю.</question10>
+                <answer>а) верно</answer>
+                <answer>б) трудно сказать</answer>
+                <answer>в) неверно</answer>
+            </option>
+
+            <option>
+                <question11>Если я сталкиваюсь с несправедливостью в отношении моего друга, я:</question11>
+                <answer>а) незамедлительно встаю на защиту друга</answer>
+                <answer>б) трудно сказать</answer>
+                <answer>в) жду, что вопрос решится сам собой.</answer>
+            </option>
+
+            <option>
+                <question12>Я думаю, что я говорю неправду реже, чем большинство других людей.</question12>
+                <answer>а) верно</answer>
+                <answer>б) затрудняюсь ответить</answer>
+                <answer>в) неверно.</answer>
+            </option>
+
+            <option>
+                <question13>Я предпочел бы скорее работать</question13>
+                <answer>а) в учреждении, где мне пришлось бы руководить людьми и быть среди них</answer>
+                <answer>б) затрудняюсь ответить</answer>
+                <answer>в) архитектором </answer>
+            </option>
+
+            <option>
+                <option14>То, что я делаю, у меня не получается:</option14>
+                <answer>а) редко</answer>
+                <answer>б) нечто среднее</answer>
+                <answer>в) часто</answer>
+            </option>
+
+            <option>
+                <question15>Даже если мне говорят, что мои идеи не осуществимы, это меня не останавливает.</question15>
+                <answer>а) верно</answer>
+                <answer>б) не знаю</answer>
+                <answer>в) неверно</answer>
+            </option>
+
+            <option>
+                <question16>Я стараюсь смеяться над шутками не так громко, как это делает большинство людей.</question16>
+                <answer>а) верно</answer>
+                <answer>б) не знаю</answer>
+                <answer>в) неверно</answer>
+            </option>
+
+            <option>
+                <question17>Усилия, затраченные на составление планов,</question17>
+                <answer>а) никогда не лишние</answer>
+                <answer>б) трудно сказать</answer>
+                <answer>в) не стоят этого</answer>
+            </option>
+
+            <option>
+                <question18>Мне больше нравится работать с людьми гибкими, чем с откровенными и прямолинейными.</question18>
+                <answer>а) да</answer>
+                <answer>б) не знаю</answer>
+                <answer>в) нет</answer>
+            </option>
+
+            <option>
+                <question19>Мне приятно сделать человеку одолжение, согласившись назначить встречу с ним на время, удобное для него, даже если это время неудобно для меня.</question19>
+                <answer>а) да</answer>
+                <answer>б) иногда</answer>
+                <answer>в) нет.</answer>
+            </option>
+
+            <option>
+                <question20>Когда я ложусь спать, я:</question20>
+                <answer>а) засыпаю быстро</answer>
+                <answer>б) нечто среднее</answer>
+                <answer>в) засыпаю с трудом.</answer>
+            </option>
+
+            <option>
+                <question21>Работая в магазине, я хотел бы:</question21>
+                <answer>а) оформлять витрины</answer>
+                <answer>б) не знаю</answer>
+                <answer>в) быть кассиром</answer>
+            </option>
+
+            <option>
+                <question22>Я предпочитаю:</question22>
+                <answer>а) вопросы, касающиеся меня лично, решать сам</answer>
+                <answer>б) затрудняюсь ответить</answer>
+                <answer>в) советоваться со своими друзьями.</answer>
+            </option>
+
+            <option>
+                <question23>Аккуратные, требовательные люди не уживаются со мной.</question23>
+                <answer>а) верно</answer>
+                <answer>б) иногда</answer>
+                <answer>в) неверно</answer>
+            </option>
+
+            <option>
+                <question24>Если люди плохо обо мне думают, то я не стараюсь их переубедить, а продолжаю поступать по-своему.</question24>
+                <answer>а) да</answer>
+                <answer>б) трудно сказать</answer>
+                <answer>в) нет</answer>
+            </option>
+
+            <option>
+                <question25>Бывает, что я все утро не хочу ни с кем разговаривать.</question25>
+                <answer>а) часто</answer>
+                <answer>б) иногда</answer>
+                <answer>в) никогда не бывает</answer>
+            </option>
+
+            <option>
+                <question26>Мне бывает скучно:</question26>
+                <answer>а) часто</answer>
+                <answer>б) иногда</answer>
+                <answer>в) редко</answer>
+            </option>
+
+            <option>
+                <question27>Я думаю, что даже самые драматические события через год уже не оставят в моей душе никаких следов.</question27>
+                <answer>а) да</answer>
+                <answer>б) трудно сказать</answer>
+                <answer>в) нет.</answer>
+            </option>
+
+            <option>
+                <question28>Я думаю, мне было бы интересно быть:</question28>
+                <answer>а) ботаником и работать с растениями</answer>
+                <answer>б) не знаю</answer>
+                <answer>в) страховым агентом.</answer>
+            </option>
+
+            <option>
+                <question29>Когда вопрос, который надо решить, очень труден и требует от меня усилий, я стараюсь:</question29>
+                <answer>а) заняться другим вопросом</answer>
+                <answer>б) затрудняюсь ответить</answer>
+                <answer>в) еще раз пытаюсь решить этот вопрос.</answer>
+            </option>
+
+            <option>
+                <question30>Ночью мне снятся фантастические или нелепые сны.</question30>
+                <answer>а) да</answer>
+                <answer>б) иногда</answer>
+                <answer>в) нет.</answer>
+            </option>
 </test>

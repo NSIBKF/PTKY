@@ -1,9 +1,9 @@
 package com.example.psychologicaltests_knowyourself.Activites
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
@@ -11,7 +11,7 @@ import com.example.psychologicaltests_knowyourself.databinding.*
 import java.io.IOException
 
 class TestDescriptionActivity : AppCompatActivity() {
-    private val resultIsReady = 100
+    private val testResultIsReady = 100
 
     private lateinit var binding: ActivityTestDescriptionBinding
     private var testLauncher: ActivityResultLauncher<Intent>? = null
@@ -31,7 +31,7 @@ class TestDescriptionActivity : AppCompatActivity() {
         /* conditions for any ways of using result codes from TestActivity */
         testLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
                 result: ActivityResult ->
-            if (result.resultCode == resultIsReady) {
+            if (result.resultCode == testResultIsReady) {
                 finish()
             }
         }
@@ -39,129 +39,77 @@ class TestDescriptionActivity : AppCompatActivity() {
 
     private fun inflater() {
         binding = ActivityTestDescriptionBinding.inflate(layoutInflater)
-        fillDescription()
+        builderOfSubtestDescription()
         setContentView(binding.root)
     }
 
-    private fun fillDescription() {
-        val subtestCode = intent.getStringExtra("codesOfSubtests")
-        var testQuestion = TestQuestion()
+    private fun builderOfSubtestDescription() {
+            when (intent.getStringExtra("codesOfSubtests")) {
+                "01" -> {
+                    testDescriptionFilling("character_test_detail.xml")
+                }
+                "02" -> {
+                    testDescriptionFilling("character_test_detail.xml")
+                }
+                "11" -> {
+                    testDescriptionFilling("character_test_detail.xml")
+                }
+                "12" -> {
+                    testDescriptionFilling("character_test_detail.xml")
+                }
+                "21" -> {
+                    testDescriptionFilling("character_test_detail.xml")
+                }
+                "22" -> {
+                    testDescriptionFilling("character_test_detail.xml")
+                }
+                "31" -> {
+                    testDescriptionFilling("character_test_detail.xml")
+                }
+                "32" -> {
+                    testDescriptionFilling("character_test_detail.xml")
+                }
+                "41" -> {
+                    testDescriptionFilling("character_test_detail.xml")
+                }
+                "42" -> {
+                    testDescriptionFilling("character_test_detail.xml")
+                }
+                "51" -> {
+                    testDescriptionFilling("character_test_detail.xml")
+                }
+                "52" -> {
+                    testDescriptionFilling("character_test_detail.xml")
+                }
+                "61" -> {
+                    testDescriptionFilling("character_test_detail.xml")
+                }
+                "62" -> {
+                    testDescriptionFilling("character_test_detail.xml")
+                }
+            }
+    }
+
+    @SuppressLint("SetTextI18n")
+    private fun testDescriptionFilling(fileNameOfTestComponents: String) {
+        tryToParseForTestDescriptionAndFillDescription(fileNameOfTestComponents)
+    }
+
+    private fun tryToParseForTestDescriptionAndFillDescription(fileNameFromAssets: String) {
         try {
             val parser = XmlPullParserHandler()
-            val istream = assets.open("character_test_detail.xml")
-            testQuestion = parser.parseForTestDescription(istream)
+            val istream = assets.open(fileNameFromAssets)
+            val testQuestion = parser.parseForTestDescription(istream)
+            fillTitleAndDescription(testQuestion)
         } catch (e: IOException) {
             e.printStackTrace()
         }
-            when (subtestCode) {
+    }
 
-                //________________________________Отрисовка тестов с Характером_______________________________________________
-
-                "01" -> {
-                    binding.textTitle.text = "Пять черт характера"
-                    binding.textDescription.text = testQuestion.description
-                }
-                "02" -> {
-                    binding.textTitle.text = "Характер топ"
-                    binding.textDescription.text = "ОПИСАНИЕ"
-                }
-
-                //_____________________________________________________________________________________________________________
-
-
-
-                //_______________________________Отрисовка тестов с Жизнью_____________________________________________________
-
-                "11" -> {
-                    binding.textTitle.text = "Тест 1 по теме жизнь"
-                    binding.textDescription.text = "ОПИСАНИЕ"
-                }
-                "12" -> {
-                    binding.textTitle.text = "Тест 2 по теме жизнь"
-                    binding.textDescription.text = "ОПИСАНИЕ"
-                }
-
-                //-------------------------------------------------------------------------------------------------------------
-
-
-
-                //______________________________Отрисовка тестов с Карьерой_____________________________________________________
-
-                "21" -> {
-                    binding.textTitle.text = "Опросник уровня удовлетворенности работой"
-                    binding.textDescription.text = "ОПИСАНИЕ"
-                }
-                "22" -> {
-                    binding.textTitle.text = "Тест на трудоголизм. Диагностика уровня занятости и зависимости от работы"
-                    binding.textDescription.text = "ОПИСАНИЕ"
-                }
-
-                //-------------------------------------------------------------------------------------------------------------
-
-
-
-
-                //______________________________Отрисовка тестов с Умственными_________________________________________________
-
-                "31" -> {
-                    binding.textTitle.text = "Тест 1 по теме умственные"
-                    binding.textDescription.text = "ОПИСАНИЕ"
-                }
-                "32" -> {
-                    binding.textTitle.text = "Тест 2 по теме умственные"
-                    binding.textDescription.text = "ОПИСАНИЕ"
-                }
-
-                //-------------------------------------------------------------------------------------------------------------
-
-
-
-
-                //______________________________Отрисовка тестов с Семьей_____________________________________________________
-
-                "41" -> {
-                    binding.textTitle.text = "Тест 1 по теме семья"
-                    binding.textDescription.text = "ОПИСАНИЕ"
-                }
-                "42" -> {
-                    binding.textTitle.text = "Тест 2 по теме семья"
-                    binding.textDescription.text = "ОПИСАНИЕ"
-                }
-
-                //-------------------------------------------------------------------------------------------------------------
-
-
-
-
-                //______________________________Отрисовка тестов с Сексом_____________________________________________________
-
-                "51" -> {
-                    binding.textTitle.text = "Тест 1 по теме секс"
-                    binding.textDescription.text = "ОПИСАНИЕ"
-                }
-                "52" -> {
-                    binding.textTitle.text = "Тест 2 по теме секс"
-                    binding.textDescription.text = "ОПИСАНИЕ"
-                }
-
-                //-------------------------------------------------------------------------------------------------------------
-
-
-
-
-                //______________________________Отрисовка тестов с Психодиагностикой____________________________________________
-
-                "61" -> {
-                    binding.textTitle.text = "Тест 1 по теме психодиагностика"
-                    binding.textDescription.text = "ОПИСАНИЕ"
-                }
-                "62" -> {
-                    binding.textTitle.text = "Тест 2 по теме психодиагностика"
-                    binding.textDescription.text = "ОПИСАНИЕ"
-                }
-
-                //________________________________________________________________________________________________________________
-            }
+    @SuppressLint("SetTextI18n")
+    private fun fillTitleAndDescription(testQuestion: TestQuestion) {
+        binding.textTitle.text = testQuestion.title
+        binding.textDescription.text = testQuestion.description
     }
 
     private fun setListeners() {
