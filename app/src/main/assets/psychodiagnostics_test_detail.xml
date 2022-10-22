@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+    <cnt_questions>39</cnt_questions>
+    <cnt_answers>4</cnt_answers>
+    <!--описание-->
+    <title>Диагностика наличия травмы, связанной с развитием</title>
+
+    <description>Травмы, связанные с привязанностью, возникшие на созависимом этапе развития индивидуума, являются главными причинами созависимых привычек взрослых людей. Все эти очень ранние травмы, связанные с развитием, предполагают нарушения в отношениях между ребенком и матерью, а также способствуют возникновению таких особенностей характера, как инфантильность, неуверенность и низкая самооценка. В конечном итоге они замедляют нормальное развитие и препятствуют попыткам детей стать независимыми и самостоятельными. По этой причине они называются «травмами, связанными с развитием». Травмы, связанные с развитием, возникшие во время созависимого этапа развития, оставляют в детях значимые взрослые (родители и те, кто заменяли родителей). Эти взрослые не были эмоционально настроены на них, а также вовремя и должным образом не реагировали на потребности ребенка в заботе, защите и безопасности. Таким образом, формируется целый ряд неуловимых и внешне незаметных психологических и биологических симптомов. Младенцы и маленькие дети воспринимают отсутствие эмоциональной настроенности как невероятное потрясение, способное вызвать длительные изменения в их организме и психике и симптомы, характерные для посттравматического стресса. Приведенный ниже перечень может помочь вам определить, пережили вы травму во время созависимого этапа развития или нет. Инструкция. Пожалуйста, оцените насколько предлагаемые утверждения подходят именно вам. Как правило, самым точным оказывается тот ответ, который приходит на ум первым. Варианты ответов: никогда, иногда, часто, почти всегда.</description>
+
+
+    <option>
+        <question1>Я испытываю проблемы с ощущением близости к тем людям, о которых забочусь.</question1>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question2>Я чувствую, что другие люди несут больше ответственности за мою жизнь, чем я сам.</question2>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question3>Я оказываю сопротивление всему новому.</question3>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question4>Я не могу препятствовать повышению веса.</question4>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question5>Я легко утрачиваю интерес к тому, чем занимаюсь.</question5>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question6>Я с трудом принимаю помощь других людей, даже когда в ней нуждаюсь.</question6>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question7>Я лучше всего работаю, когда на меня оказывают сильное давление.</question7>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question8>Я не умею признавать свои ошибки.</question8>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question9>Я склонен забывать или не выполнять соглашения, которые заключаю.</question9>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question10>Я не умею эффективно расходовать время и деньги.</question10>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question11>Я использую для решения конфликтов шантаж и манипуляции.</question11>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question12>Я ощущаю персональное воздействие, когда кто-то спорит или ссорится со мной.</question12>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question13>Я с трудом принимаю или говорю комплименты.</question13>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question14>Я выхожу из себя, когда испытываю разочарование собой или другими.</question14>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question15>Я склонен перекладывать на других причину своих проблем.</question15>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question16>Я чувствую внутри себя огромную пустоту.</question16>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question17>Я испытываю затруднение с позитивными мыслями о будущем.</question17>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question18>Я ощущаю внутри себя туго свернутую пружину.</question18>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question19>Я склонен к злоупотреблению едой и алкоголем, когда испытываю беспокойство.</question19>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question20>Я чувствую себя опустошенным и одиноким.</question20>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question21>Я склонен сомневаться в мотивах других.</question21>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question22>Я испытываю отсутствие любви к себе со стороны других.</question22>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question23>Я испытываю сложности, когда мне надо определить, чего я хочу или что мне нужно.</question23>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question24>Когда я вступаю в конфликт, другой человек всегда побеждает меня и добивается своего.</question24>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question25>Я склонен слишком бурно реагировать на определенных людей и/или ситуации, которые меня раздражают.</question25>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question26>Я чувствую себя так, будто качаюсь в лодке на эмоциональных волнах.</question26>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question27>Я не могу надолго останавливаться на каком-либо начатом духовном занятии.</question27>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question28>Я был физически или эмоционально отвергнут людьми, игравшими важную роль в моей жизни.</question28>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question29>Я с трудом могу сосредоточиться на том, что делаю.</question29>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question30>Я не могу испытать близость, которой хочу в своих отношениях.</question30>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question31>Я с трудом засыпаю и плохо сплю.</question31>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question32>Я склонен быть крайне осторожным по отношению к определенным людям или ситуациям.</question32>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question33>Я избегаю мест или ситуаций, которые напоминают мне о моих прошлых переживаниях.</question33>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question34>Я часто вижу повторяющиеся нехорошие сны о том, что происходило со мной в прошлом.</question34>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question35>Я думаю, что мои мысли живут своей собственной жизнью.</question35>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question36>Я с трудом могу сосредоточить внимание на том, что говорят другие.</question36>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question37>Я склонен избегать ситуаций и людей, которые могут причинить мне неприятности.</question37>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question38>Я обнаруживаю большие белые пятна в своих воспоминаниях о детстве.</question38>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question39>Я затрудняюсь с пониманием того, что ощущаю внутри себя.</question39>
+        <answer>никогда</answer>
+        <answer>иногда</answer>
+        <answer>часто</answer>
+        <answer>почти всегда</answer>
+    </option>
+
+</test>

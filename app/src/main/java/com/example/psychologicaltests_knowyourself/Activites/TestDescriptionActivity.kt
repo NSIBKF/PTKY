@@ -58,7 +58,7 @@ class TestDescriptionActivity : AppCompatActivity() {
                     testDescriptionFilling("character_test_detail.xml")
                 }
                 "21" -> {
-                    testDescriptionFilling("character_test_detail.xml")
+                    testDescriptionFilling("career_test_detail.xml")
                 }
                 "22" -> {
                     testDescriptionFilling("character_test_detail.xml")
@@ -70,7 +70,7 @@ class TestDescriptionActivity : AppCompatActivity() {
                     testDescriptionFilling("character_test_detail.xml")
                 }
                 "41" -> {
-                    testDescriptionFilling("character_test_detail.xml")
+                    testDescriptionFilling("family_test_detail.xml")
                 }
                 "42" -> {
                     testDescriptionFilling("character_test_detail.xml")
@@ -82,7 +82,7 @@ class TestDescriptionActivity : AppCompatActivity() {
                     testDescriptionFilling("character_test_detail.xml")
                 }
                 "61" -> {
-                    testDescriptionFilling("character_test_detail.xml")
+                    testDescriptionFilling("psychodiagnostics_test_detail.xml")
                 }
                 "62" -> {
                     testDescriptionFilling("character_test_detail.xml")

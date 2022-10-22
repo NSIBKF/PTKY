@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<test>
+    <!--количество вопросов и ответов-->
+    <cnt_questions>20</cnt_questions>
+    <cnt_answers>2</cnt_answers>
+    <!--описание-->
+    <title>Тест на трудоголизм</title>
+
+    <description>Тест на трудоголизм предназначен для диагностики уровня занятости и выявления возможных отклонений в сторону ничегонеделания или чрезмерного увлечения работой. Опросник на трудоголизм состоит из 20 вопросов, время прохождения вместе с обработкой 10-15 мин. Методика подходит для лиц достигших 18 лет. Инструкция к тесту на трудоголизм. Внимательно прочитайте предложенные утверждения и ответьте на них «да» или «нет».</description>
+
+    <option>
+        <question1>Вы склонны детально беседовать со своими коллегами по работе, чем со своими друзьями.</question1>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question2>Вы очень точны относительно деловых встреч.</question2>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question3>Вам лучше отдыхается в субботу после полудня, чем в воскресенье.</question3>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question4>Вы лучше себя чувствуете, когда работаете, чем когда бездельничаете.</question4>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question5>Вы тщательно планируете свое времяпровождение.</question5>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question6>Вы раздражаетесь, когда ваши друзья заставляют вас ждать.</question6>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question7>Ваши друзья считают, что с вами легко ладить.</question7>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question8>Работая, вы часто забываете о близких.</question8>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question9>Вы находите время для работы даже в самых трудных условиях.</question9>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question10>Вы всегда до мельчайших подробностей планируете свои действия.</question10>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question11>Вам нравится болтать в перерывах между совещаниями.</question11>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question12>Ваши друзья занимаются примерно таким же делом, как и вы.</question12>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question13>Вы стараетесь работать, даже когда бываете не здоровы.</question13>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question14>Все, что вы читаете относится к сфере вашей деятельности.</question14>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question15>Вы остаетесь на работе позднее, чем ваши коллеги.</question15>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question16>Просыпаясь ночью, вы думаете о работе.</question16>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question17>Вы мечтаете о том, чтобы на работе не было неурядиц.</question17>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question18>В играх вы такой же азартный, как и на работе.</question18>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question19>Отдых вам быстро надоедает.</question19>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question20>В дни отдыха вы часто готовитесь к трудовой неделе.</question20>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+</test>

@@ -172,12 +172,12 @@ class chooseTestActivity : AppCompatActivity() {
                 }
                 binding.test1.setOnClickListener {
                     val intent = Intent(this, TestDescriptionActivity::class.java)
-                    intent.putExtra("codesOfSubtests", "01")
+                    intent.putExtra("codesOfSubtests", "${testCode}1")
                     startActivity(intent)
                 }
                 binding.test2.setOnClickListener {
                     val intent = Intent(this, TestDescriptionActivity::class.java)
-                    intent.putExtra("codesOfSubtests", "02")
+                    intent.putExtra("codesOfSubtests", "${testCode}2")
                     startActivity(intent)
                 }
             }
@@ -194,12 +194,12 @@ class chooseTestActivity : AppCompatActivity() {
                 }
                 binding.test1.setOnClickListener {
                     val intent = Intent(this, TestDescriptionActivity::class.java)
-                    intent.putExtra("codesOfSubtests", "01")
+                    intent.putExtra("codesOfSubtests", "${testCode}1")
                     startActivity(intent)
                 }
                 binding.test2.setOnClickListener {
                     val intent = Intent(this, TestDescriptionActivity::class.java)
-                    intent.putExtra("codesOfSubtests", "02")
+                    intent.putExtra("codesOfSubtests", "${testCode}2")
                     startActivity(intent)
                 }
             }
@@ -216,12 +216,12 @@ class chooseTestActivity : AppCompatActivity() {
                 }
                 binding.test1.setOnClickListener {
                     val intent = Intent(this, TestDescriptionActivity::class.java)
-                    intent.putExtra("codesOfSubtests", "01")
+                    intent.putExtra("codesOfSubtests", "${testCode}1")
                     startActivity(intent)
                 }
                 binding.test2.setOnClickListener {
                     val intent = Intent(this, TestDescriptionActivity::class.java)
-                    intent.putExtra("codesOfSubtests", "02")
+                    intent.putExtra("codesOfSubtests", "${testCode}2")
                     startActivity(intent)
                 }
             }
@@ -238,12 +238,12 @@ class chooseTestActivity : AppCompatActivity() {
                 }
                 binding.test1.setOnClickListener {
                     val intent = Intent(this, TestDescriptionActivity::class.java)
-                    intent.putExtra("codesOfSubtests", "01")
+                    intent.putExtra("codesOfSubtests", "${testCode}1")
                     startActivity(intent)
                 }
                 binding.test2.setOnClickListener {
                     val intent = Intent(this, TestDescriptionActivity::class.java)
-                    intent.putExtra("codesOfSubtests", "02")
+                    intent.putExtra("codesOfSubtests", "${testCode}2")
                     startActivity(intent)
                 }
             }
@@ -260,12 +260,12 @@ class chooseTestActivity : AppCompatActivity() {
                 }
                 binding.test1.setOnClickListener {
                     val intent = Intent(this, TestDescriptionActivity::class.java)
-                    intent.putExtra("codesOfSubtests", "01")
+                    intent.putExtra("codesOfSubtests", "${testCode}1")
                     startActivity(intent)
                 }
                 binding.test2.setOnClickListener {
                     val intent = Intent(this, TestDescriptionActivity::class.java)
-                    intent.putExtra("codesOfSubtests", "02")
+                    intent.putExtra("codesOfSubtests", "${testCode}2")
                     startActivity(intent)
                 }
             }
@@ -282,12 +282,12 @@ class chooseTestActivity : AppCompatActivity() {
                 }
                 binding.test1.setOnClickListener {
                     val intent = Intent(this, TestDescriptionActivity::class.java)
-                    intent.putExtra("codesOfSubtests", "01")
+                    intent.putExtra("codesOfSubtests", "${testCode}1")
                     startActivity(intent)
                 }
                 binding.test2.setOnClickListener {
                     val intent = Intent(this, TestDescriptionActivity::class.java)
-                    intent.putExtra("codesOfSubtests", "02")
+                    intent.putExtra("codesOfSubtests", "${testCode}2")
                     startActivity(intent)
                 }
             }
@@ -304,12 +304,12 @@ class chooseTestActivity : AppCompatActivity() {
                 }
                 binding.test1.setOnClickListener {
                     val intent = Intent(this, TestDescriptionActivity::class.java)
-                    intent.putExtra("codesOfSubtests", "01")
+                    intent.putExtra("codesOfSubtests", "${testCode}1")
                     startActivity(intent)
                 }
                 binding.test2.setOnClickListener {
                     val intent = Intent(this, TestDescriptionActivity::class.java)
-                    intent.putExtra("codesOfSubtests", "02")
+                    intent.putExtra("codesOfSubtests", "${testCode}2")
                     startActivity(intent)
                 }
             }
