@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<test>
+    <!--количество вопросов и ответов-->
+    <cnt_questions>36</cnt_questions>
+    <cnt_answers>6</cnt_answers>
+    <!--описание-->
+    <title>Опросник удовлетворенности работой</title>
+
+    <description>Опросник удовлетворенности работой диагностирует удовлетворенность по 9 аспектам работы: зарплатой, карьерой, руководителем, дополнительными льготами и выплатами, зависимыми вознаграждениями, условиями выполнения, коллегами, характером работы и информированием. Каждый из этих аспектов освещают четыре вопроса методики. Опросник состоит из 36 вопросов и каждый ответ оценивается от 1 до 6 баллов. Инструкция к опроснику удовлетворенности работой: Ниже приводятся высказывания, описывающие восприятие человеком различных сторон своей работы. Отнесите эти высказывания к вашей сегодняшней работе и оцените, насколько вы с ними согласны или не согласны. Варианты ответов: а. совершенно не согласен; б. не согласен; в. скорее не согласен;  г. скорее согласен; д. согласен; е. совершенно согласен.</description>
+
+
+    <option>
+        <question1>Думаю, что я получаю неплохую оплату за ту работу, которую я выполняю</question1>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question2>"В этой организации у меня практически нет шансов получить повышение"</question2>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question3>"У меня исключительно толковый и грамотный руководитель"</question3>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question4>Меня не удовлетворяет система дополнительных выплат, существующая в этой организации</question4>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question5>Когда я хорошо выполняю свою работу, я ощущаю признание и благодарность</question5>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question6>Когда я хорошо выполняю свою работу, я ощущаю Многие из наших правил и инструкций препятствуют нормальной работе</question6>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question7>Мне нравятся люди, с которыми я работаю</question7>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question8>Иногда мне кажется, что моя работа не имеет никакого смысла</question8>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question9>В этой организации хорошо налажено информирование своих работников</question9>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question10>Прибавки к зарплате очень незначительны и происходят редко</question10>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question11>Те, кто хорошо справляются со своей работой, имеют реальные шансы на по­вышение</question11>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question12>Мне не нравится то, как со мной обращается мой руководитель</question12>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question13>Дополнительные льготы и выплаты, которые мы здесь получаем, не хуже, чем в большинстве других организаций</question13>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question14>Я не вижу, чтобы то, что я делаю, хоть как-то ценилось</question14>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question15>Мои попытки улучшить процесс работы не натыкаются на бюрократизм и проволочки</question15>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question16>Многие из моих коллег грешат некомпетентностью</question16>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question17>Мне интересно решать задачи, возникающие в моей работе</question17>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question18>"Мне неясны цели, которые перед собой ставит эта организация"</question18>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question19>Думаю, что меня недостаточно ценят в этой организации, судя по тому, сколько мне платят</question19>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question20>Шансы продвинуться по карьерной лестнице здесь не хуже, чем в других местах</question20>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question21>Мой руководитель проявляет мало интереса к чувствам своих подчиненных</question21>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question22>Наша организация обеспечивает хороший социальный пакет</question22>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question23>У нас почти не получают материальных вознаграждений за хорошую работу</question23>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question24>Мне приходится выполнять массу формальных и ненужных вещей</question24>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question25>Я получаю удовольствие от работы со своими коллегами</question25>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question26>Мне часто кажется, что я не знаю, что происходит в нашей организации</question26>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question27>Я горжусь работой, которую я выполняю</question27>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question28>Я удовлетворен возможностями на повышение зарплаты</question28>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question29>Мы не имеем того социального пакета, который должны были бы иметь</question29>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question30>Мне очень нравится мой руководитель</question30>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question31>Моя работа перегружена писаниной</question31>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question32>Я не чувствую, чтобы мои усилия оценивались так, как они того заслуживают</question32>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question33>Если я захочу, у меня есть реальные возможности продвинуться по службе</question33>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question34>Мне очень нравится атмосфера нашего коллектива</question34>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question35>Я получаю удовольствие от этой работы</question35>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+
+    <option>
+        <question36>Меня не удовлетворяет уровень информирования работников в нашем подразделении</question36>
+        <answer>совершенно не согласен</answer>
+        <answer>не согласен</answer>
+        <answer>скорее не согласен</answer>
+        <answer>скорее согласен</answer>
+        <answer>согласен</answer>
+        <answer>совершенно согласен</answer>
+    </option>
+
+</test>
