@@ -73,10 +73,10 @@
                     <ImageView
                         android:layout_width="75dp"
                         android:layout_height="75dp"
+                        android:layout_gravity="center|start"
+                        android:layout_marginStart="20dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_gravity="center|start"
                         android:padding="10dp"
                         android:src="@drawable/ic_character" />
 
@@ -84,12 +84,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginEnd="40dp"
                         android:layout_marginStart="95dp"
+                        android:layout_marginEnd="40dp"
+                        android:fontFamily="@font/pt_sans_regular"
                         android:text="Характер"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:fontFamily="@font/pt_sans_regular"/>
+                        android:textSize="18sp" />
 
                 </FrameLayout>
 

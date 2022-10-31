@@ -49,7 +49,7 @@ class TestDescriptionActivity : AppCompatActivity() {
                     testDescriptionFilling("character_test_detail.xml")
                 }
                 "02" -> {
-                    testDescriptionFilling("character_test_detail.xml")
+                    testDescriptionFilling("character_test2_detail.xml")
                 }
                 "11" -> {
                     testDescriptionFilling("character_test_detail.xml")
@@ -64,7 +64,7 @@ class TestDescriptionActivity : AppCompatActivity() {
                     testDescriptionFilling("career_test2_detail.xml")
                 }
                 "31" -> {
-                    testDescriptionFilling("character_test_detail.xml")
+                    testDescriptionFilling("mental_test_detail.xml")
                 }
                 "32" -> {
                     testDescriptionFilling("character_test_detail.xml")

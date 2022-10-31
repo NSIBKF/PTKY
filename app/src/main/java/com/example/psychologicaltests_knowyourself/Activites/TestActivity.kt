@@ -52,7 +52,7 @@ class TestActivity : AppCompatActivity() {
                 lateTestFilling("character_test_detail.xml")
             }
             "02" -> {
-                lateTestFilling("character_test_detail.xml")
+                lateTestFilling("character_test2_detail.xml")
             }
             "11" -> {
                 lateTestFilling("character_test_detail.xml")
@@ -67,7 +67,7 @@ class TestActivity : AppCompatActivity() {
                 lateTestFilling("career_test2_detail.xml")
             }
             "31" -> {
-                lateTestFilling("character_test_detail.xml")
+                lateTestFilling("mental_test_detail.xml")
             }
             "32" -> {
                 lateTestFilling("character_test_detail.xml")

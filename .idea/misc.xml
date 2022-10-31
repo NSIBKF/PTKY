@@ -3,12 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/PTKY/PTKY/app/src/main/res/drawable/bg_btn_choose_test_1.xml" value="0.286" />
+        <entry key="..\:/PTKY/PTKY/app/src/main/res/drawable/bg_choose_test.xml" value="0.286" />
+        <entry key="..\:/PTKY/PTKY/app/src/main/res/drawable/bg_search.xml" value="0.286" />
+        <entry key="..\:/PTKY/PTKY/app/src/main/res/drawable/bg_top.xml" value="0.25" />
+        <entry key="..\:/PTKY/PTKY/app/src/main/res/drawable/btn_bg_main.xml" value="0.286" />
+        <entry key="..\:/PTKY/PTKY/app/src/main/res/drawable/custom_search_view.xml" value="0.286" />
         <entry key="..\:/PTKY/PTKY/app/src/main/res/layout/activity_choose_test.xml" value="0.358695652173913" />
+        <entry key="..\:/PTKY/PTKY/app/src/main/res/layout/activity_choose_test1.xml" value="0.25" />
         <entry key="..\:/PTKY/PTKY/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/PTKY/PTKY/app/src/main/res/layout/activity_result.xml" value="0.33" />
         <entry key="..\:/PTKY/PTKY/app/src/main/res/layout/activity_test.xml" value="0.358695652173913" />
         <entry key="..\:/PTKY/PTKY/app/src/main/res/layout/activity_test_character.xml" value="0.358695652173913" />
+        <entry key="..\:/PTKY/PTKY/app/src/main/res/layout/custom_search_view.xml" value="0.5936794582392777" />
         <entry key="..\:/PTKY/PTKY/app/src/main/res/xml/character_test2_detail.xml" value="0.358695652173913" />
+        <entry key="..\:/PTKY/PTKY/app/src/main/res/xml/searchable.xml" value="0.365625" />
         <entry key="..\:/PTKY/app/src/main/res/drawable/bg_test_btn.xml" value="0.2075" />
         <entry key="..\:/PTKY/app/src/main/res/drawable/btn_bg.xml" value="0.2075" />
         <entry key="..\:/PTKY/app/src/main/res/drawable/btn_bg_main.xml" value="0.2075" />
