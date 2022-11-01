@@ -11,9 +11,8 @@
         android:id="@+id/imageView2"
         android:layout_width="150dp"
         android:layout_height="150dp"
-
         android:layout_marginTop="20dp"
-        android:background="@drawable/ic_main_ptky"
+        android:background="@drawable/ic_main"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -30,7 +29,7 @@
 
         android:textColor="@color/black"
         android:textSize="22sp"
-        android:fontFamily="@font/pt_serif_bold"
+        android:fontFamily="@font/inter_semibold"
 
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +40,6 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,7 +49,8 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:overScrollMode="never">
+            android:overScrollMode="never"
+            android:layout_marginTop="30dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -66,7 +65,6 @@
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="30dp"
                     android:layout_marginEnd="20dp"
                     android:background="@drawable/btn_bg_main">
 
@@ -97,21 +95,21 @@
                     android:id="@+id/lifeBtn"
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
+                    android:layout_below="@+id/characterBtn"
                     android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="130dp"
+                    android:layout_marginTop="25dp"
                     android:layout_marginEnd="20dp"
                     android:background="@drawable/btn_bg_main">
 
                     <ImageView
                         android:layout_width="75dp"
                         android:layout_height="75dp"
+                        android:layout_gravity="center|start"
+                        android:layout_marginStart="20dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_gravity="center|start"
                         android:padding="10dp"
                         android:src="@drawable/ic_life" />
 
@@ -119,12 +117,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginEnd="40dp"
                         android:layout_marginStart="95dp"
+                        android:layout_marginEnd="40dp"
+                        android:fontFamily="@font/pt_sans_regular"
                         android:text="Жизнь"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:fontFamily="@font/pt_sans_regular"/>
+                        android:textSize="18sp" />
 
                 </FrameLayout>
 
@@ -132,34 +130,34 @@
                     android:id="@+id/careerBtn"
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
+                    android:layout_below="@+id/lifeBtn"
                     android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="230dp"
+                    android:layout_marginTop="25dp"
                     android:layout_marginEnd="20dp"
                     android:background="@drawable/btn_bg_main">
 
                     <ImageView
                         android:layout_width="75dp"
                         android:layout_height="75dp"
+                        android:layout_gravity="center|start"
+                        android:layout_marginStart="20dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_gravity="center|start"
                         android:padding="10dp"
-                        android:src="@drawable/ic_career"/>
+                        android:src="@drawable/ic_career" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginEnd="40dp"
                         android:layout_marginStart="95dp"
+                        android:layout_marginEnd="40dp"
+                        android:fontFamily="@font/pt_sans_regular"
                         android:text="Карьера"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:fontFamily="@font/pt_sans_regular"/>
+                        android:textSize="18sp" />
 
                 </FrameLayout>
 
@@ -167,21 +165,21 @@
                     android:id="@+id/mentalBtn"
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
+                    android:layout_below="@+id/careerBtn"
                     android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="330dp"
+                    android:layout_marginTop="25dp"
                     android:layout_marginEnd="20dp"
                     android:background="@drawable/btn_bg_main">
 
                     <ImageView
                         android:layout_width="75dp"
                         android:layout_height="75dp"
+                        android:layout_gravity="center|start"
+                        android:layout_marginStart="20dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_gravity="center|start"
                         android:padding="10dp"
                         android:src="@drawable/ic_mental" />
 
@@ -189,12 +187,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginEnd="40dp"
                         android:layout_marginStart="95dp"
+                        android:layout_marginEnd="40dp"
+                        android:fontFamily="@font/pt_sans_regular"
                         android:text="Умственные"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:fontFamily="@font/pt_sans_regular"/>
+                        android:textSize="18sp" />
 
                 </FrameLayout>
 
@@ -202,21 +200,21 @@
                     android:id="@+id/familyBtn"
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
+                    android:layout_below="@+id/mentalBtn"
                     android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="430dp"
+                    android:layout_marginTop="25dp"
                     android:layout_marginEnd="20dp"
                     android:background="@drawable/btn_bg_main">
 
                     <ImageView
                         android:layout_width="75dp"
                         android:layout_height="75dp"
+                        android:layout_gravity="center|start"
+                        android:layout_marginStart="20dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_gravity="center|start"
                         android:padding="10dp"
                         android:src="@drawable/ic_family" />
 
@@ -224,47 +222,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginEnd="40dp"
                         android:layout_marginStart="95dp"
+                        android:layout_marginEnd="40dp"
+                        android:fontFamily="@font/pt_sans_regular"
                         android:text="Семья"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:fontFamily="@font/pt_sans_regular"/>
-
-                </FrameLayout>
-
-                <FrameLayout
-                    android:id="@+id/sexBtn"
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="530dp"
-                    android:layout_marginEnd="20dp"
-                    android:background="@drawable/btn_bg_main">
-
-                    <ImageView
-                        android:layout_width="75dp"
-                        android:layout_height="75dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_gravity="center|start"
-                        android:padding="10dp"
-                        android:src="@drawable/ic_sex" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginEnd="40dp"
-                        android:layout_marginStart="95dp"
-                        android:text="Секс"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:fontFamily="@font/pt_sans_regular"/>
+                        android:textSize="18sp" />
 
                 </FrameLayout>
 
@@ -272,11 +235,11 @@
                     android:id="@+id/psychodiagnosticsBtn"
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
+                    android:layout_below="@id/familyBtn"
                     android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="630dp"
+                    android:layout_marginTop="25dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="30dp"
                     android:background="@drawable/btn_bg_main">
@@ -284,23 +247,23 @@
                     <ImageView
                         android:layout_width="75dp"
                         android:layout_height="75dp"
+                        android:layout_gravity="center|start"
+                        android:layout_marginStart="20dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_gravity="center|start"
                         android:padding="10dp"
                         android:src="@drawable/ic_psychodiagnostics" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="40dp"
-                        android:layout_marginStart="95dp"
                         android:layout_gravity="center"
+                        android:layout_marginStart="95dp"
+                        android:layout_marginEnd="40dp"
+                        android:fontFamily="@font/pt_sans_regular"
                         android:text="Психодиагностика"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:fontFamily="@font/pt_sans_regular"/>
+                        android:textSize="18sp" />
 
                 </FrameLayout>
 

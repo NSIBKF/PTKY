@@ -44,6 +44,13 @@ class TestDescriptionActivity : AppCompatActivity() {
     }
 
     private fun builderOfSubtestDescription() {
+        /*                          Кодировка тестов
+              0* - Тесты про характер           |      * - номер теста
+              1* - Тесты про жизнь              |
+              2* - Тесты про карьеру            |
+              3* - Тесты про умственные         |
+              4* - Тесты про семья              |
+              5* - Тесты про психодиагностику   |                       */
             when (intent.getStringExtra("codesOfSubtests")) {
                 "01" -> {
                     testDescriptionFilling("character_test_detail.xml")
@@ -76,15 +83,9 @@ class TestDescriptionActivity : AppCompatActivity() {
                     testDescriptionFilling("character_test_detail.xml")
                 }
                 "51" -> {
-                    testDescriptionFilling("character_test_detail.xml")
-                }
-                "52" -> {
-                    testDescriptionFilling("character_test_detail.xml")
-                }
-                "61" -> {
                     testDescriptionFilling("psychodiagnostics_test_detail.xml")
                 }
-                "62" -> {
+                "52" -> {
                     testDescriptionFilling("psychodiagnostics_test2_detail.xml")
                 }
             }

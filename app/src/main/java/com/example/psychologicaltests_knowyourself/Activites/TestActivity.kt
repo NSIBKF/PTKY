@@ -39,14 +39,13 @@ class TestActivity : AppCompatActivity() {
     private fun builderOfSubtest() {
         when (intent.getStringExtra("codesOfSubtests")) {
 
-            //                              Кодировка тестов
-            //  0* - Тесты про характер           |      * - номер теста
-            //  1* - Тесты про жизнь              |
-            //  2* - Тесты про карьеру            |
-            //  3* - Тесты про умственные         |
-            //  4* - Тесты про семья              |
-            //  5* - Тесты про секс               |
-            //  6* - Тесты про психодиагностику   |
+            /*                          Кодировка тестов
+              0* - Тесты про характер           |      * - номер теста
+              1* - Тесты про жизнь              |
+              2* - Тесты про карьеру            |
+              3* - Тесты про умственные         |
+              4* - Тесты про семья              |
+              5* - Тесты про психодиагностику   |                       */
 
             "01" -> {
                 lateTestFilling("character_test_detail.xml")
@@ -79,15 +78,9 @@ class TestActivity : AppCompatActivity() {
                 lateTestFilling("character_test_detail.xml")
             }
             "51" -> {
-                lateTestFilling("character_test_detail.xml")
-            }
-            "52" -> {
-                lateTestFilling("character_test_detail.xml")
-            }
-            "61" -> {
                 lateTestFilling("psychodiagnostics_test_detail.xml")
             }
-            "62" -> {
+            "52" -> {
                 lateTestFilling("psychodiagnostics_test2_detail.xml")
             }
         }
@@ -267,10 +260,6 @@ class TestActivity : AppCompatActivity() {
 //            "51" -> {
 //            }
 //            "52" -> {
-//            }
-//            "61" -> {
-//            }
-//            "62" -> {
 //            }
 //        }
 //        return result

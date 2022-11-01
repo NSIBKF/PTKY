@@ -9,7 +9,14 @@ import com.example.psychologicaltests_knowyourself.databinding.ActivityMainBindi
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
-    private val codesOfTests = arrayOf(0, 1, 2, 3, 4, 5, 6)
+    /*  Кодировка тестов
+      0 - Тесты про характер
+      1 - Тесты про жизнь
+      2 - Тесты про карьеру
+      3 - Тесты про умственные
+      4 - Тесты про семья
+      5 - Тесты про психодиагностику */
+    private val codesOfTests = arrayOf(0, 1, 2, 3, 4, 5)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,11 +45,8 @@ class MainActivity : AppCompatActivity() {
         binding.familyBtn.setOnClickListener {
             comeToActivity(4)
         }
-        binding.sexBtn.setOnClickListener {
-            comeToActivity(5)
-        }
         binding.psychodiagnosticsBtn.setOnClickListener {
-            comeToActivity(6)
+            comeToActivity(5)
         }
     }
 
