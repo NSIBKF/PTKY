@@ -20,7 +20,7 @@ class GetStartedActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         binding.getStartedBtn.setOnClickListener {
-            val intent : Intent = Intent(this, MainActivity::class.java)
+            val intent: Intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
         }

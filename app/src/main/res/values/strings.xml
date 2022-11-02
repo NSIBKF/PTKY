@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Psychological Tests - Know Yourself</string>
-    <string name="get_started">Get Started</string>
-    <string name="PTKY_text">Психологические тесты - узнай себя!</string>
+    <string name="get_started">Начать</string>
+    <string name="PTKY_text">Психологические тесты</string>
     <string name="themeText">Выберите тему теста</string>
     <string name="character">Характер</string>
     <string name="life">Жизнь</string>
