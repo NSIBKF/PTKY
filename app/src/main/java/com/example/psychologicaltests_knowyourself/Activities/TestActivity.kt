@@ -156,32 +156,32 @@ class TestActivity : AppCompatActivity() {
     private fun countAnswers() {
         when (countOfAnswers) {
             2 -> {
-                binding.option3.visibility = View.GONE
-                binding.option4.visibility = View.GONE
-                binding.option5.visibility = View.GONE
-                binding.option6.visibility = View.GONE
-                binding.option3.isEnabled = false
-                binding.option4.isEnabled = false
-                binding.option5.isEnabled = false
-                binding.option6.isEnabled = false
+                binding.option3Frame.visibility = View.GONE
+                binding.option4Frame.visibility = View.GONE
+                binding.option5Frame.visibility = View.GONE
+                binding.option6Frame.visibility = View.GONE
+                binding.option3Frame.isEnabled = false
+                binding.option4Frame.isEnabled = false
+                binding.option5Frame.isEnabled = false
+                binding.option6Frame.isEnabled = false
             }
             3 -> {
-                binding.option4.visibility = View.GONE
-                binding.option5.visibility = View.GONE
-                binding.option6.visibility = View.GONE
-                binding.option4.isEnabled = false
-                binding.option5.isEnabled = false
-                binding.option6.isEnabled = false
+                binding.option4Frame.visibility = View.GONE
+                binding.option5Frame.visibility = View.GONE
+                binding.option6Frame.visibility = View.GONE
+                binding.option4Frame.isEnabled = false
+                binding.option5Frame.isEnabled = false
+                binding.option6Frame.isEnabled = false
             }
             4 -> {
-                binding.option5.visibility = View.GONE
-                binding.option6.visibility = View.GONE
-                binding.option5.isEnabled = false
-                binding.option6.isEnabled = false
+                binding.option5Frame.visibility = View.GONE
+                binding.option6Frame.visibility = View.GONE
+                binding.option5Frame.isEnabled = false
+                binding.option6Frame.isEnabled = false
             }
             5 -> {
-                binding.option6.visibility = View.GONE
-                binding.option6.isEnabled = false
+                binding.option6Frame.visibility = View.GONE
+                binding.option6Frame.isEnabled = false
             }
         }
     }
