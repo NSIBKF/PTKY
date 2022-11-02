@@ -13,4 +13,9 @@
         <item name="android:statusBarColor" >#BA959A</item>
         <!-- Customize your theme here. -->
     </style>
+    <!-- Customize text in SearchView. -->
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView" >
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/pt_sans_regular</item>
+    </style>
 </resources>

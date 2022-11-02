@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<components>
+    <!-- имена файлов с компонентами тестов -->
+    <character>character_test_detail.xml</character>
+    <character>character_test2_detail.xml</character>
+    <life>character_test_detail.xml</life>
+    <life>character_test_detail.xml</life>
+    <career></career>
+</components>

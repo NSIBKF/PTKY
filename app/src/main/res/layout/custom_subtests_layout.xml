@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/subtest1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="58dp"
+    android:layout_marginEnd="58dp"
+    android:background="@drawable/bg_choose_test">
+
+    <ImageView
+        android:id="@+id/imageTest1"
+        android:layout_width="wrap_content"
+        android:layout_height="196dp"
+        android:layout_gravity="top"
+        android:src="@drawable/pic1" />
+
+    <TextView
+        android:id="@+id/textSubtitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="220dp"
+        android:fontFamily="@font/inter_bold"
+        android:gravity="center"
+        android:text="Пять черт характера"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textDescription1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/inter_regular"
+        android:gravity="center"
+        android:maxLines="4"
+        android:text="nibdlfbladbfalbabvkvdvlid  ootseIo f* tiigidjfiuhbiudhiuh riur i rayi ytayayry ayypaypyaor yaoao yaugi geygUG oduygfoUEGofu" />
+
+    <TextView
+        android:id="@+id/cntOfAnswers1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/ptsans_bold"
+        android:gravity="center"
+        android:text="Всего вопросов: 30"
+        android:textColor="@color/black" />
+
+    <FrameLayout
+        android:id="@+id/test1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bg_btn_start_test">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="start|center"
+            android:text="Начать тест"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="end|center"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="25dp"
+            android:src="@drawable/ic_arrow_right" />
+    </FrameLayout>
+
+</FrameLayout>

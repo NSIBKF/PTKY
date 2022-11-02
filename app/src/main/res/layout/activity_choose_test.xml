@@ -1,146 +1,266 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/mainColor"
-    tools:context=".Activites.chooseTestActivity">
+    android:background="@color/mainColor">
 
 
-    <TextView
-        android:id="@+id/textTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:text="@string/character"
-        android:textColor="@color/black"
-
-        android:textSize="32sp"
-
-        android:textStyle="bold"
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_top"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <androidx.appcompat.widget.AppCompatImageButton
-        android:id="@+id/imageBack"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@color/mainColor"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="70dp"
-        android:src="@drawable/ic_back"
-        android:tint="#AA155C"
-        app:layout_constraintEnd_toStartOf="@+id/textTitle"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/character"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:fontFamily="@font/inter_semibold"/>
+
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_top"
+            android:elevation="10dp">
+
+        <ImageView
+            android:id="@+id/imageBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/back" />
+
+        </FrameLayout>
+    </FrameLayout>
+
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textTitle">
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
 
-        <ScrollView
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/bg_search"
+            app:defaultQueryHint="Поиск теста"
+            android:theme="@style/AppSearchView"
+            app:iconifiedByDefault="false"
+            app:queryBackground="@null"
+            app:submitBackground="@null" />
 
-            <RelativeLayout
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="108dp">
+
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent">
 
-
-                >
-
-                <FrameLayout
-                    android:id="@+id/test1"
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="9dp"
-                    android:background="@drawable/bg_test_btn">
+                    android:layout_height="match_parent">
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/imageTest1"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_marginStart="25dp"
-                        android:layout_marginTop="15dp"
-                        android:layout_marginBottom="15dp"
-                        android:src="@mipmap/ic_launcher" />
-
-
-                    <TextView
-                        android:id="@+id/textTest1"
+                    <FrameLayout
+                        android:id="@+id/subtest1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginStart="70dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginEnd="50dp"
-                        android:layout_marginBottom="5dp"
-                        android:gravity="center"
+                        android:layout_marginStart="58dp"
+                        android:layout_marginEnd="58dp"
+                        android:background="@drawable/bg_choose_test">
 
-                        android:text="@string/test1OfCharacter"
-                        android:textColor="@color/black" />
+                        <ImageView
+                            android:id="@+id/imageTest1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="196dp"
+                            android:layout_gravity="top"
+                            android:src="@drawable/pic1" />
 
+                        <TextView
+                            android:id="@+id/textSubtitle1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|top"
+                            android:layout_marginTop="220dp"
+                            android:fontFamily="@font/inter_bold"
+                            android:gravity="center"
+                            android:text="Пять черт характера"
+                            android:textColor="@color/black" />
 
-                </FrameLayout>
+                        <TextView
+                            android:id="@+id/textDescription1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="260dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:gravity="center"
+                            android:maxLines="4"
+                            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac neque nec metus finibus blandit. Duis sit amet eleifend sem. Suspendisse at feugiat augue, at bibendum nisl. "
+                            android:fontFamily="@font/inter_regular"
+                            android:textColor="@color/black" />
 
-                <FrameLayout
-                    android:id="@+id/test2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginTop="100dp"
-                    android:layout_marginEnd="9dp"
-                    android:background="@drawable/bg_test_btn">
+                        <TextView
+                            android:id="@+id/cntOfAnswers1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|top"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="360dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:fontFamily="@font/ptsans_bold"
+                            android:gravity="center"
+                            android:text="Всего вопросов: 30"
+                            android:textColor="@color/black" />
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/imageTest2"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_marginStart="25dp"
-                        android:layout_marginTop="15dp"
-                        android:layout_marginBottom="15dp"
-                        android:src="@drawable/ic_test2_of_character" />
+                        <FrameLayout
+                            android:id="@+id/test1"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="50dp"
+                            android:layout_marginTop="410dp"
+                            android:layout_marginEnd="50dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/bg_btn_start_test"
+                            android:elevation="8dp">
 
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="30dp"
+                                android:fontFamily="@font/inter_regular"
+                                android:gravity="start|center"
+                                android:text="Начать тест"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
 
-                    <TextView
-                        android:id="@+id/textTest2"
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="end|center"
+                                android:layout_marginTop="1dp"
+                                android:layout_marginEnd="25dp"
+                                android:src="@drawable/ic_arrow_right" />
+                        </FrameLayout>
+
+                    </FrameLayout>
+
+                    <FrameLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginStart="70dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginEnd="50dp"
-                        android:layout_marginBottom="5dp"
-                        android:gravity="center"
+                        android:layout_below="@+id/subtest1"
+                        android:layout_marginStart="58dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginEnd="58dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="@drawable/bg_choose_test">
 
-                        android:text="@string/test2OfCharacter"
-                        android:textColor="@color/black" />
+                        <ImageView
+                            android:id="@+id/imageTest2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="196dp"
+                            android:layout_gravity="top"
+                            android:src="@drawable/pic1" />
 
+                        <TextView
+                            android:id="@+id/textSubtitle2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|top"
+                            android:layout_marginTop="220dp"
+                            android:gravity="center"
+                            android:text="Пять черт характера"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/inter_bold"/>
 
-                </FrameLayout>
+                        <TextView
+                            android:id="@+id/textDescription2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="260dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:gravity="center"
+                            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac neque nec metus finibus blandit. Duis sit amet eleifend sem. Suspendisse at feugiat augue, at bibendum nisl. "
+                            android:maxLines="4"
+                            android:fontFamily="@font/inter_regular"
+                            android:textColor="@color/black"/>
 
+                        <TextView
+                            android:id="@+id/cntOfAnswers2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|top"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="360dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:gravity="center"
+                            android:text="Всего вопросов: 30"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/ptsans_bold"/>
 
-            </RelativeLayout>
+                        <FrameLayout
+                            android:id="@+id/test2"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="50dp"
+                            android:layout_marginTop="410dp"
+                            android:layout_marginEnd="50dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/bg_btn_start_test"
+                            android:elevation="8dp">
 
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="30dp"
+                                android:fontFamily="@font/inter_regular"
+                                android:gravity="start|center"
+                                android:text="Начать тест"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
 
-        </ScrollView>
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="end|center"
+                                android:layout_marginTop="1dp"
+                                android:layout_marginEnd="25dp"
+                                android:src="@drawable/ic_arrow_right" />
+                        </FrameLayout>
+
+                    </FrameLayout>
+
+                </RelativeLayout>
+
+            </ScrollView>
+
+        </FrameLayout>
+
 
 
     </FrameLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

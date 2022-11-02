@@ -1,4 +1,4 @@
-package com.example.psychologicaltests_knowyourself.Activites
+package com.example.psychologicaltests_knowyourself.Activities
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -10,7 +10,6 @@ import java.io.IOException
 
 class TestActivity : AppCompatActivity() {
 
-    private val testResultIsReady = 100
     private var countOfAnswers: Int = 2
     private var countOfQuestions: Int = 1
     private var numberOfCurrentQuestion = 1
@@ -215,7 +214,6 @@ class TestActivity : AppCompatActivity() {
     @SuppressLint("SetTextI18n")
     private fun loadQuestionOrShowResult() {
         if (numberOfCurrentQuestion >= countOfQuestions) {
-            setResult(testResultIsReady)
             val intent = Intent(this, ResultActivity::class.java)
             intent.putExtra("title", binding.textTitle.text)
             startActivity(intent)

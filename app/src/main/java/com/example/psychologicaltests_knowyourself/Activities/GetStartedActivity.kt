@@ -1,4 +1,4 @@
-package com.example.psychologicaltests_knowyourself.Activites
+package com.example.psychologicaltests_knowyourself.Activities
 
 
 import android.content.Intent
@@ -9,7 +9,7 @@ import com.example.psychologicaltests_knowyourself.databinding.ActivityGetStarte
 
 class GetStartedActivity : AppCompatActivity() {
 
-    lateinit var binding : ActivityGetStartedActivityBinding
+    lateinit var binding: ActivityGetStartedActivityBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

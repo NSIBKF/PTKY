@@ -17,17 +17,18 @@
 
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/character"
             android:textColor="@color/black"
             android:textSize="25sp"
-            android:textStyle="bold" />
+            android:fontFamily="@font/inter_semibold"/>
 
 
         <ImageView
+            android:id="@+id/imageBack"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_gravity="center|start"
@@ -52,80 +53,31 @@
             android:layout_marginTop="30dp"
             android:layout_marginEnd="40dp"
             android:background="@drawable/bg_search"
+            app:defaultQueryHint="Поиск теста"
+            android:theme="@style/AppSearchView"
             app:iconifiedByDefault="false"
             app:queryBackground="@null"
             app:submitBackground="@null" />
 
-
         <FrameLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bg_choose_test"
-            android:layout_marginStart="58dp"
-            android:layout_marginEnd="58dp"
-            android:layout_marginTop="110dp">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="108dp">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="196dp"
-                android:src="@drawable/pic1"
-                android:layout_gravity="top"/>
-
-
-            <TextView
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="220dp"
-                android:layout_gravity="center|top"
-                android:gravity="center"
-                android:text="Пять черт характера"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                />
+                android:layout_height="match_parent">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="260dp"
-                android:gravity="center"
-                android:layout_marginStart="15dp"
-                android:layout_marginEnd="15dp"
-                android:layout_marginBottom="15dp"
-                android:text="nibdlfbladbfalbabvkvdvlid  ootseIo f* tiigidjfiuhbiudhiuh riur i rayi ytayayry ayypaypyaor yaoao yaugi geygUG oduygfoUEGofu"
-                />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
+                </RelativeLayout>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="360dp"
-                android:layout_gravity="center|top"
-                android:gravity="center"
-                android:layout_marginStart="15dp"
-                android:layout_marginEnd="15dp"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:layout_marginBottom="15dp"
-                android:text="Всего вопросов: 30"
-                />
-
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/bg_btn_choose_test_1"
-                android:layout_marginTop="410dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginEnd="50dp"
-                android:layout_marginBottom="15dp"
-                android:text="Начать тест"
-                android:textAllCaps="false"
-                />
-
-
-
+            </ScrollView>
 
         </FrameLayout>
+
 
 
     </FrameLayout>

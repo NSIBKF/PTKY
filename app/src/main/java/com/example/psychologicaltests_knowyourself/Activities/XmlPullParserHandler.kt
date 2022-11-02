@@ -1,6 +1,5 @@
-package com.example.psychologicaltests_knowyourself.Activites
+package com.example.psychologicaltests_knowyourself.Activities
 
-import android.util.Log
 import org.xmlpull.v1.XmlPullParserException
 import org.xmlpull.v1.XmlPullParser
 import org.xmlpull.v1.XmlPullParserFactory
@@ -10,8 +9,9 @@ import java.io.InputStream
 class XmlPullParserHandler {
     private var testQuestion: TestQuestion? = null
     private var text: String? = null
-
-    fun parseForTestDescription(inputStream: InputStream): TestQuestion {
+    // доработать парсер для имен файлов с компонентами и сам файл
+/*
+    fun parseNameOfFilesWithTestsComponents(inputStream: InputStream): TestQuestion {
         try {
             val factory = XmlPullParserFactory.newInstance()
             // we set mode that says what we'll going to read XML files
@@ -24,7 +24,43 @@ class XmlPullParserHandler {
                 val tagName = parser.name
                 when (eventType) {
                     XmlPullParser.TEXT -> text = parser.text
-                    XmlPullParser.END_TAG -> if (tagName.equals("title", ignoreCase = true)) {
+                    XmlPullParser.END_TAG -> if (tagName.equals("cnt_questions", ignoreCase = true)) {
+                        testQuestion!!.countQuestions = text!!.toInt()
+                    } else if (tagName.equals("title", ignoreCase = true)) {
+                        testQuestion!!.title = text
+                    } else if (tagName.equals("description", ignoreCase = true)) {
+                        testQuestion!!.description = text
+                        break
+                    }
+                }
+                eventType = parser.next()
+            }
+        } catch (e: XmlPullParserException) {
+            e.printStackTrace()
+        } catch (e: IOException) {
+            e.printStackTrace()
+        }
+        return testQuestion!!
+    }
+
+ */
+
+    fun parseForChooseTest(inputStream: InputStream): TestQuestion {
+        try {
+            val factory = XmlPullParserFactory.newInstance()
+            // we set mode that says what we'll going to read XML files
+            factory.isNamespaceAware = true
+            val parser = factory.newPullParser()
+            parser.setInput(inputStream, null)
+            var eventType = parser.eventType
+            testQuestion = TestQuestion()
+            while (eventType != XmlPullParser.END_DOCUMENT) {
+                val tagName = parser.name
+                when (eventType) {
+                    XmlPullParser.TEXT -> text = parser.text
+                    XmlPullParser.END_TAG -> if (tagName.equals("cnt_questions", ignoreCase = true)) {
+                            testQuestion!!.countQuestions = text!!.toInt()
+                        } else if (tagName.equals("title", ignoreCase = true)) {
                             testQuestion!!.title = text
                         } else if (tagName.equals("description", ignoreCase = true)) {
                             testQuestion!!.description = text

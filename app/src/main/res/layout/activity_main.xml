@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/mainColor"
-    tools:context="com.example.psychologicaltests_knowyourself.Activites.MainActivity">
+    tools:context="com.example.psychologicaltests_knowyourself.Activities.MainActivity">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -65,8 +65,10 @@
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginEnd="20dp"
-                    android:background="@drawable/btn_bg_main">
+                    android:background="@drawable/btn_bg_main"
+                    android:elevation="8dp">
 
                     <ImageView
                         android:layout_width="75dp"
@@ -101,7 +103,8 @@
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="20dp"
-                    android:background="@drawable/btn_bg_main">
+                    android:background="@drawable/btn_bg_main"
+                    android:elevation="8dp">
 
                     <ImageView
                         android:layout_width="75dp"
@@ -136,7 +139,8 @@
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="20dp"
-                    android:background="@drawable/btn_bg_main">
+                    android:background="@drawable/btn_bg_main"
+                    android:elevation="8dp">
 
                     <ImageView
                         android:layout_width="75dp"
@@ -168,10 +172,11 @@
                     android:layout_below="@+id/careerBtn"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="25dp"
-                    android:layout_marginEnd="20dp"
-                    android:background="@drawable/btn_bg_main">
+                    android:layout_marginStart="19dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_marginEnd="21dp"
+                    android:background="@drawable/btn_bg_main"
+                    android:elevation="8dp">
 
                     <ImageView
                         android:layout_width="75dp"
@@ -206,7 +211,8 @@
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="20dp"
-                    android:background="@drawable/btn_bg_main">
+                    android:background="@drawable/btn_bg_main"
+                    android:elevation="8dp">
 
                     <ImageView
                         android:layout_width="75dp"
@@ -242,7 +248,8 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="30dp"
-                    android:background="@drawable/btn_bg_main">
+                    android:background="@drawable/btn_bg_main"
+                    android:elevation="8dp">
 
                     <ImageView
                         android:layout_width="75dp"

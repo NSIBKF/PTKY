@@ -1,4 +1,4 @@
-package com.example.psychologicaltests_knowyourself.Activites
+package com.example.psychologicaltests_knowyourself.Activities
 
 class TestQuestion() {
     var title: String? = null
