@@ -2,15 +2,15 @@ package com.example.psychologicaltests_knowyourself.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.psychologicaltests_knowyourself.databinding.ActivityResultBinding
+import com.example.psychologicaltests_knowyourself.databinding.ActivityResultWithoutDiagramBinding
 
 class ResultActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityResultBinding
+    private lateinit var binding: ActivityResultWithoutDiagramBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityResultBinding.inflate(layoutInflater)
+        binding = ActivityResultWithoutDiagramBinding.inflate(layoutInflater)
         binding.textTitle.text = intent.getStringExtra("title")
         setContentView(binding.root)
 

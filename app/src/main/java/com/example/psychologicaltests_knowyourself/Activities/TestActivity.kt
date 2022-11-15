@@ -191,22 +191,22 @@ class TestActivity : AppCompatActivity() {
         binding.imageBack.setOnClickListener {
             onBackPressed()
         }
-        binding.option1.setOnClickListener {
+        binding.option1Frame.setOnClickListener {
             loadQuestionOrShowResult()
         }
-        binding.option2.setOnClickListener {
+        binding.option2Frame.setOnClickListener {
             loadQuestionOrShowResult()
         }
-        binding.option3.setOnClickListener {
+        binding.option3Frame.setOnClickListener {
             loadQuestionOrShowResult()
         }
-        binding.option4.setOnClickListener {
+        binding.option4Frame.setOnClickListener {
             loadQuestionOrShowResult()
         }
-        binding.option5.setOnClickListener {
+        binding.option5Frame.setOnClickListener {
             loadQuestionOrShowResult()
         }
-        binding.option6.setOnClickListener {
+        binding.option6Frame.setOnClickListener {
             loadQuestionOrShowResult()
         }
     }
