@@ -1,6 +1,6 @@
-package com.example.psychologicaltests_knowyourself.Activities
+package com.example.psychologicaltests_knowyourself.activities
 
-class TestQuestion() {
+class TestInfo() {
     var title: String? = null
     var description: String? = null
     var question: String? = null

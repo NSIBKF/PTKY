@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/mainColor"
-    tools:context="com.example.psychologicaltests_knowyourself.Activities.MainActivity">
+    tools:context="com.example.psychologicaltests_knowyourself.activities.MainActivity">
 
     <ImageView
         android:id="@+id/imageView2"

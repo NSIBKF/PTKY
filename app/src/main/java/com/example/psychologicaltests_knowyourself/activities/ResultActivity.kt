@@ -1,4 +1,4 @@
-package com.example.psychologicaltests_knowyourself.Activities
+package com.example.psychologicaltests_knowyourself.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.psychologicaltests_knowyourself.Activities.GetStartedActivity"
+    tools:context="com.example.psychologicaltests_knowyourself.activities.GetStartedActivity"
     android:background="@color/mainColor">
 
     <FrameLayout

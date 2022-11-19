@@ -1,4 +1,4 @@
-package com.example.psychologicaltests_knowyourself.Activities
+package com.example.psychologicaltests_knowyourself.activities
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -105,50 +105,50 @@ class TestActivity : AppCompatActivity() {
         }
     }
 
-    private fun assignValueToCountOfAnswersAndQuestions(testQuestion: TestQuestion) {
-        this@TestActivity.countOfAnswers = testQuestion.countAnswers
-        this@TestActivity.countOfQuestions = testQuestion.countQuestions
+    private fun assignValueToCountOfAnswersAndQuestions(testInfo: TestInfo) {
+        this@TestActivity.countOfAnswers = testInfo.countAnswers
+        this@TestActivity.countOfQuestions = testInfo.countQuestions
     }
 
     @SuppressLint("SetTextI18n")
-    private fun fillTitle(testQuestion: TestQuestion) {
-        binding.textTitle.text = testQuestion.title
+    private fun fillTitle(testInfo: TestInfo) {
+        binding.textTitle.text = testInfo.title
     }
 
     @SuppressLint("SetTextI18n")
-    private fun fillQuestionAndAnswersAndCurrentTableOfProgress(testQuestion: TestQuestion) {
-        binding.textQuestion.text = testQuestion.question
+    private fun fillQuestionAndAnswersAndCurrentTableOfProgress(testInfo: TestInfo) {
+        binding.textQuestion.text = testInfo.question
         binding.textNumberQuestion.text = "$numberOfCurrentQuestion/${this@TestActivity.countOfQuestions}"
         when (countOfAnswers) {
             2 -> {
-                binding.option1.text = testQuestion.listOfAnswers[0]
-                binding.option2.text = testQuestion.listOfAnswers[1]
+                binding.option1.text = testInfo.listOfAnswers[0]
+                binding.option2.text = testInfo.listOfAnswers[1]
             }
             3 -> {
-                binding.option1.text = testQuestion.listOfAnswers[0]
-                binding.option2.text = testQuestion.listOfAnswers[1]
-                binding.option3.text = testQuestion.listOfAnswers[2]
+                binding.option1.text = testInfo.listOfAnswers[0]
+                binding.option2.text = testInfo.listOfAnswers[1]
+                binding.option3.text = testInfo.listOfAnswers[2]
             }
             4 -> {
-                binding.option1.text = testQuestion.listOfAnswers[0]
-                binding.option2.text = testQuestion.listOfAnswers[1]
-                binding.option3.text = testQuestion.listOfAnswers[2]
-                binding.option4.text = testQuestion.listOfAnswers[3]
+                binding.option1.text = testInfo.listOfAnswers[0]
+                binding.option2.text = testInfo.listOfAnswers[1]
+                binding.option3.text = testInfo.listOfAnswers[2]
+                binding.option4.text = testInfo.listOfAnswers[3]
             }
             5 -> {
-                binding.option1.text = testQuestion.listOfAnswers[0]
-                binding.option2.text = testQuestion.listOfAnswers[1]
-                binding.option3.text = testQuestion.listOfAnswers[2]
-                binding.option4.text = testQuestion.listOfAnswers[3]
-                binding.option5.text = testQuestion.listOfAnswers[4]
+                binding.option1.text = testInfo.listOfAnswers[0]
+                binding.option2.text = testInfo.listOfAnswers[1]
+                binding.option3.text = testInfo.listOfAnswers[2]
+                binding.option4.text = testInfo.listOfAnswers[3]
+                binding.option5.text = testInfo.listOfAnswers[4]
             }
             else -> {
-                binding.option1.text = testQuestion.listOfAnswers[0]
-                binding.option2.text = testQuestion.listOfAnswers[1]
-                binding.option3.text = testQuestion.listOfAnswers[2]
-                binding.option4.text = testQuestion.listOfAnswers[3]
-                binding.option5.text = testQuestion.listOfAnswers[4]
-                binding.option6.text = testQuestion.listOfAnswers[5]
+                binding.option1.text = testInfo.listOfAnswers[0]
+                binding.option2.text = testInfo.listOfAnswers[1]
+                binding.option3.text = testInfo.listOfAnswers[2]
+                binding.option4.text = testInfo.listOfAnswers[3]
+                binding.option5.text = testInfo.listOfAnswers[4]
+                binding.option6.text = testInfo.listOfAnswers[5]
             }
         }
     }

@@ -1,4 +1,4 @@
-package com.example.psychologicaltests_knowyourself.Activities
+package com.example.psychologicaltests_knowyourself.activities
 
 
 import android.annotation.SuppressLint
@@ -174,12 +174,12 @@ class chooseTestActivity : AppCompatActivity() {
     }
 
     @SuppressLint("SetTextI18n")
-    private fun parseSubtitlesDescriptionsAndCntOfQuestions(fileNameOfTestComponents: String): TestQuestion? {
+    private fun parseSubtitlesDescriptionsAndCntOfQuestions(fileNameOfTestComponents: String): TestInfo? {
         return tryToParseForChooseTest(fileNameOfTestComponents)
     }
 
-    private fun tryToParseForChooseTest(fileNameFromAssets: String): TestQuestion? {
-        var result: TestQuestion? = null
+    private fun tryToParseForChooseTest(fileNameFromAssets: String): TestInfo? {
+        var result: TestInfo? = null
         try {
             val parser = XmlPullParserHandler()
             val istream = assets.open(fileNameFromAssets)
