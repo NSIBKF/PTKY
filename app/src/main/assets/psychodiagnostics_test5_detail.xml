@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<test>
+    <!--количество вопросов и ответов-->
+    <cnt_questions>10</cnt_questions>
+    <cnt_answers>4</cnt_answers>
+    <!--описание-->
+    <title>Методика "Умение рационально использовать время"</title>
+
+    <description></description>
+
+    <option>
+        <question1>Я резервирую в начале рабочего дня время для подготовительной работы, планирования</question1>
+        <answer>Почти никогда</answer>
+        <answer>Иногда</answer>
+        <answer>Часто</answer>
+        <answer>Почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question2>Я перепоручаю все, что может быть перепоручено</question2>
+        <answer>Почти никогда</answer>
+        <answer>Иногда</answer>
+        <answer>Часто</answer>
+        <answer>Почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question3>Я письменно фиксирую задачи и цели, с указанием сроков их реализации</question3>
+        <answer>Почти никогда</answer>
+        <answer>Иногда</answer>
+        <answer>Часто</answer>
+        <answer>Почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question4>Каждый официальный документ я стараюсь обрабатывать за один раз и окончательно</question4>
+        <answer>Почти никогда</answer>
+        <answer>Иногда</answer>
+        <answer>Часто</answer>
+        <answer>Почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question5>Каждый день я составляю список предстоящих дел, упорядоченный по приоритетам. Важнейшие вещи я делаю в первую очередь</question5>
+        <answer>Почти никогда</answer>
+        <answer>Иногда</answer>
+        <answer>Часто</answer>
+        <answer>Почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question6>Свой рабочий день я освобождаю от посторонних телефонных разговоров незапланированных встреч, неожиданных совещаний</question6>
+        <answer>Почти никогда</answer>
+        <answer>Иногда</answer>
+        <answer>Часто</answer>
+        <answer>Почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question7>Свою дневную нагрузку я распределяю в соответствии с графиком моей работоспособности</question7>
+        <answer>Почти никогда</answer>
+        <answer>Иногда</answer>
+        <answer>Часто</answer>
+        <answer>Почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question8>В моем плане всегда есть окна, позволяющие реагировать на актуальные проблемы</question8>
+        <answer>Почти никогда</answer>
+        <answer>Иногда</answer>
+        <answer>Часто</answer>
+        <answer>Почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question9>Я направляю свою активность таким образом, чтобы в первую очередь концентрироваться на немногих, «жизненно важных» проблемах</question9>
+        <answer>Почти никогда</answer>
+        <answer>Иногда</answer>
+        <answer>Часто</answer>
+        <answer>Почти всегда</answer>
+    </option>
+
+
+    <option>
+        <question10>Я умею говорить «нет», когда на мое время претендуют другие, а мне необходимо делать более важные дела</question10>
+        <answer>Почти никогда</answer>
+        <answer>Иногда</answer>
+        <answer>Часто</answer>
+        <answer>Почти всегда</answer>
+    </option>
+
+</test>

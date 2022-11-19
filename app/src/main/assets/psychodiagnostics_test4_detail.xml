@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<test>
+    <!--количество вопросов и ответов-->
+    <cnt_questions>20</cnt_questions>
+    <cnt_answers>5</cnt_answers>
+    <!--описание-->
+    <title>Диагностика манипулятивного отношения (по шкале Банта)</title>
+
+    <description>Шкала манипулятивного отношения – личностный опросник, выявляющий склонность к манипулированию другим людьми.</description>
+
+    <option>
+        <question1>Большинство людей ответят грубостью на грубость</question1>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+
+    <option>
+        <question2>Большинство людей не верят во что-либо новое до тех пор, пока не испытают это на себе</question2>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+
+    <option>
+        <question3>Тот, кто полностью доверят другим людям, часто находится в затруднительном положении</question3>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+
+    <option>
+        <question4>Большинство людей работают в полную силу только в том случае, если их заставляют это делать</question4>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+
+    <option>
+        <question5>Даже самые отвратительные преступники имеют хоть капельку приличия</question5>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+
+    <option>
+        <question6>Каждый нормальный человек будет бороться за то, что важно для него, даже если это будет стоить ему рабочего места (не задумываясь о последствиях)</question6>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+
+    <option>
+        <question7>Большинство людей не задумываются о том, что для них плохо, а что хорошо</question7>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+
+    <option>
+        <question8>Некоторые самые блестящие люди обладают самыми отвратительными пороками</question8>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+
+    <option>
+        <question9>Большинство людей намного легче забывают смерть своих родителей, чем потерю собственности</question9>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+
+    <option>
+        <question10>Многие люди любят похвалиться, когда для этого нет достаточных оснований</question10>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+    <option>
+        <question11>Большинству людей нравится преодолевать сложные ситуации</question11>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+
+    <option>
+        <question12>Большинство людей отличаются храбростью</question12>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+
+    <option>
+        <question13>Природа так создала человека, что он способен достичь меньше того, чем ему хотелось бы</question13>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+
+    <option>
+        <question14>Самая большая разница между преступниками и другими людьми заключается в том, что преступники были настолько глупы, что дали себя поймать</question14>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+
+    <option>
+        <question15>Наилучший способ поладить с людьми – говорить им то, что они хотели бы услышать</question15>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+
+    <option>
+        <question16>Более безопасно помнить о том, что люди имеют пороки, которые проявляются в самых неожиданных ситуациях</question16>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+
+    <option>
+        <question17>По природе своей люди добры</question17>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+    <option>
+        <question18>Неверно считать, что в мире каждую минуту рождаются подлецы</question18>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+
+    <option>
+        <question19>Для человеческой природы характерно поступать только с выгодой для себя</question19>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+
+    <option>
+        <question20>Большинство людей удовлетворяются тем, что похоже на правду, но не является таковой</question20>
+        <answer>Практически всегда</answer>
+        <answer>Часто</answer>
+        <answer>Иногда</answer>
+        <answer>Случайно</answer>
+        <answer>Очень редко</answer>
+    </option>
+
+</test>

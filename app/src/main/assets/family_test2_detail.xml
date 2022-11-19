@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+    <cnt_questions>61</cnt_questions>
+    <cnt_answers>2</cnt_answers>
+    <!--описание-->
+    <title>Методика диагностики родительского отношения (ОРО) А. Я. Варга, В. В. Столин</title>
+
+    <description>"Родительское отношение понимается как система разнообразных чувств и поступков взрослых людей по отношению к детям. С психологической точки зрения родительское отношение – это педагогическая социальная установка по отношению к детям, включающая в себя рациональный, эмоциональный и поведенческий компоненты. Все они в той или иной степени оцениваются при помощи опросника, составляющего основу данной методики. 61 вопрос опросника составляет пять следующих шкал, выражающих собой те или иные аспекты родительского отношения: 1. Принятие – отвержение ребенка. Эта шкала выражает собой общее эмоционально   положительное (принятие) или эмоционально отрицательное (отвержение) отношение к ребенку. 2. Кооперация. Эта шкала выражает стремление взрослых к сотрудничеству с ребенком, проявление с их стороны искренней заинтересованности и участие в его делах. 3. Симбиоз. Вопросы этой шкалы ориентированы на то, чтобы выяснить, стремится ли взрослый к единению с ребенком или, напротив, старается сохранить между ребенком и собой психологическую дистанцию. Это – своеобразная контактность ребенка и взрослого человека. 4. Контроль. Данная шкала характеризует то, как взрослые контролируют поведение ребенка, насколько они демократичны или авторитарны в отношениях с ним. 5. Отношение к неудачам ребенка. Эта, последняя шкала показывает, как взрослые относятся к способностям ребенка, к его достоинствам и недостаткам, успехам и неудачам."</description>
+
+    <option>
+        <question1>Я всегда сочувствую своему ребенку</question1>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question2>Я считаю своим долгом знать все, о чем думает мой ребенок</question2>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question3>Мне кажется, что поведение моего ребенка значительно отклоняется от нормы</question3>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question4>Нужно подольше держать ребенка в стороне от реальных жизненных проблем, если они его травмируют</question4>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question5>Я испытываю к ребенку чувство симпатии</question5>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question6>Я уважаю своего ребенка</question6>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question7>Хорошие родители ограждают ребенка от трудностей жизни</question7>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question8>Мой ребенок часто мне неприятен</question8>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question9>Я всегда стараюсь помочь своему ребенку</question9>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question10>Бывают случаи, когда недоброе отношение к ребенку приносит ему пользу</question10>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question11>По отношению к своему ребенку я испытываю досаду</question11>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question12>Мой ребенок ничего не добьется в жизни</question12>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question13>Мне кажется, что другие дети потешаются над моим ребенком</question13>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question14>Мой ребенок часто совершает такие поступки, которые заслуживают осуждения</question14>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question15>Мой ребенок отстает в психологическом развитии и для своего возраста выглядит недостаточно развитым</question15>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question16>Мой ребенок специально ведет себя плохо, чтобы досадить мне</question16>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question17>Мой ребенок, как губка, впитывает в себя все самое плохое</question17>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question18>При всем старании моего ребенка трудно научить хорошим манерам</question18>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question19>Ребенка с детства следует держать в жестких рамках, только тогда из него вырастет хороший человек</question19>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question20>Я люблю, когда друзья моего ребенка приходят к нам в дом</question20>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question21>Я всегда принимаю участие в играх и делах ребенка</question21>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question22>К моему ребенку постоянно «липнет» все дурное</question22>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question23>Мой ребенок не добьется успехов в жизни</question23>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question24>Когда в компании говорят о детях, мне становится стыдно, что мой ребенок не такой умный и способный, как другие дети</question24>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question25>Я жалею своего ребенка</question25>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question26>Когда я сравниваю своего ребенка со сверстниками, то они кажутся мне воспитаннее и разумнее, чем мой ребенок</question26>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question27>Я с удовольствием провожу с ребенком свое свободное время</question27>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question28>Я часто жалею о том, что мой ребенок взрослеет, и с нежностью вспоминаю то время, когда он был еще совсем маленьким</question28>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question29>Я часто ловлю себя на том, что с неприязнью и враждебно отношусь к ребенку</question29>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question30>Я мечтаю о том, чтобы мой ребенок достиг того, что лично мне не удалось в жизни</question30>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question31>Родители должны не только требовать от ребенка, но и сами приспосабливаться к нему, относиться к нему с уважением, как к личности</question31>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question32>Я стараюсь выполнять все просьбы и пожелания моего ребенка</question32>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question33>При принятии решений в семье следует учитывать мнение ребенка</question33>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question34>Я очень интересуюсь жизнью своего ребенка</question34>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question35>Я часто признаю, что в своих требованиях и претензиях ребенок по-своему прав</question35>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question36>Дети рано узнают о том, что родители могут ошибаться</question36>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question37>Я всегда считаюсь с ребенком</question37>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question38>Я испытываю дружеские чувства по отношению к ребенку</question38>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question39>Основная причина капризов моего ребенка – это эгоизм, лень и упрямство</question39>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question40>Если проводить отпуск с ребенком, то невозможно нормально отдохнуть</question40>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question41>Самое главное – чтобы у ребенка было спокойное, беззаботное детство</question41>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question42>Иногда мне кажется, что мой ребенок не способен ни на что хорошее</question42>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question43>Я разделяю увлечения моего ребенка</question43>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question44>Мой ребенок кого угодно может вывести из себя</question44>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question45>Огорчения моего ребенка мне всегда близки и понятны</question45>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question46>Мой ребенок часто меня раздражает</question46>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question47>Воспитание ребенка – это сплошная нервотрепка</question47>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question48>Строгая дисциплина в детстве развивает сильный характер</question48>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+
+    <option>
+        <question49>Я не доверяю своему ребенку</question49>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question50>За строгое воспитание дети потом благодарят своих родителей</question50>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question51>Иногда мне кажется, что я ненавижу своего ребенка</question51>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question52>В моем ребенке больше недостатков, чем достоинств</question52>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question53>Мне близки интересы моего ребенка, я их разделяю</question53>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question54>Мой ребенок не в состоянии сделать что-либо самостоятельно, и если он это делает, то обязательно получается не так, как нужно</question54>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question55>Мой ребенок вырастет не приспособленным к жизни</question55>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question56>Мой ребенок нравится мне таким, какой он есть</question56>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question57>Я тщательно слежу за состоянием здоровья моего ребенка</question57>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+
+    <option>
+        <question58>Я восхищаюсь своим ребенком</question58>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question59>Ребенок не должен иметь секретов от родителей</question59>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question60>Я невысокого мнения о способностях моего ребенка и не скрываю этого от него</question60>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question61>Ребенок должен дружить с теми детьми, которые нравятся его родителям</question61>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+</test>

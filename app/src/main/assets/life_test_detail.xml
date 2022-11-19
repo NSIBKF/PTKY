@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+    <cnt_questions>60</cnt_questions>
+    <cnt_answers>3</cnt_answers>
+    <!--описание-->
+    <title>Методика «Q-сортировка» тенденций поведения в группе</title>
+
+    <description>"Цель: изучение представлений испытуемого о себе. Может быть также использована для определения «идеального «Я»» индивида или его представлении о том, каким его видят другие. Данные параметры могут быть исследованы на основании анализа 6 тенденций поведения человека в группе: зависимость, независимость, общительность, необщительность, принятие борьбы и уклонение от борьбы."</description>
+
+    <option>
+        <question1>Я критичен к товарищам</question1>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question2>У меня возникает тревога, когда в группе начинается конфликт</question2>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question3>Я склонен следовать советам лидера</question3>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question4>Я не склонен создавать слишком близкие отношения с товарищами</question4>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question5>Мне нравится дружественность в группе</question5>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question6>Я склонен противоречить лидеру</question6>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question7>Испытываю симпатию к одному-двум определенным товарищам</question7>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question8>Избегаю встреч и собраний в группе</question8>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question9>Мне нравится похвала лидера</question9>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question10>Я независим в суждениях и манере поведения</question10>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question11>Я готов встать на чью-либо сторону в споре</question11>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question12>Я склонен руководить товарищами</question12>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question13>Радуюсь общению с одним–двумя друзьями</question13>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question14>При появлении враждебности со стороны членов группы я внешне спокоен</question14>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question15>Я склонен поддерживать настроение всей группы</question15>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question16>Не придаю значение личным качествам членов группы</question16>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question17>Я склонен отвлекать группу от её целей</question17>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question18>Испытываю удовлетворение, противопоставляя себя лидеру</question18>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question19>Хотел бы сблизиться с некоторыми членами группы</question19>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question20>Предпочитаю оставаться нейтральным в споре</question20>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question21>Мне нравится, когда лидер активен и хорошо руководит</question21>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question22>Предпочитаю хладнокровно обсуждать разногласия</question22>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question23>Я недостаточно сдержан в выражении чувств</question23>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question24>Стремлюсь сплотить вокруг себя единомышленников</question24>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question25>Недоволен слишком формальным (деловым) отношением</question25>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question26>Когда меня обвиняют, я теряюсь и молчу</question26>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question27>Предпочитаю соглашаться с основными направлениями в группе</question27>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question28>Я привязан к группе в целом больше, чем к определенным товарищам</question28>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question29>Я склонен затягивать и обострять спор</question29>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question30>Стремлюсь быть в центре внимания</question30>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question31>Я хотел бы быть членом более узкой группы</question31>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question32>Я склонен к компромиссам</question32>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question33>Испытываю беспокойство, когда лидер поступает вопреки моим ожиданиям</question33>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question34>Болезненно отношусь к замечаниям друзей</question34>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question35>Могу быть коварным и вкрадчивым</question35>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question36>Я склонен принять на себя руководство в группе</question36>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question37>Я откровенен в группе</question37>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question38>У меня возникает беспокойство во время группового разногласия</question38>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question39>Предпочитаю, чтобы лидер брал на себя ответственность при планировании работ</question39>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question40>Я не склонен отвечать на проявления дружелюбия</question40>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question41>Я склонен сердиться на товарищей</question41>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question42>Я пытаюсь вести других против лидера</question42>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+    <option>
+        <question43>Легко нахожу знакомства за пределами группы</question43>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question44>Стараюсь избегать быть втянутым в спор</question44>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question45>Легко соглашаюсь с предложениями других членов группы</question45>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question46>Оказываю сопротивление образованию группировок в группе</question46>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question47>Когда раздражен, я насмешлив и ироничен</question47>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question48>У меня возникает неприязнь к тем, кто пытается выделиться</question48>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+
+    <option>
+        <question49>Предпочитаю меньшую, но более интимную группу</question49>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question50>Пытаюсь не показывать свои истинные чувства</question50>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question51>Становлюсь на сторону лидера в групповых разногласиях</question51>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question52>Я инициативен в установлении контактов в общении</question52>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question53>Избегаю критиковать товарищей</question53>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question54>Предпочитаю обращаться к лидеру чаще, чем к другим</question54>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question55>Мне не нравиться, что отношения в группе слишком фамильярны</question55>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question56>Люблю затевать споры</question56>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question57>Стремлюсь удержать свое высокое положение в группе</question57>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+
+    <option>
+        <question58>Я склонен вмешиваться в контакты знакомых и нарушать их</question58>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question59>Я склонен к перепалкам, задиристый</question59>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+
+    <option>
+        <question60>Я склонен выражать недовольство лидером</question60>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+        <answer>Сомневаюсь</answer>
+    </option>
+
+</test>

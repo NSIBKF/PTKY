@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<test>
+    <!--количество вопросов и ответов-->
+    <cnt_questions>41</cnt_questions>
+    <cnt_answers>2</cnt_answers>
+    <!--описание-->
+    <title>Методика диагностики личности «Мотивация к успеху» Т. Элерса</title>
+
+    <description>Оценивается степень стремления к достижению цели, успеха</description>
+
+    <option>
+        <question1>Если между двумя вариантами есть выбор, его лучше сделать быстрее, чем откладывать на потом</question1>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question2>Если замечаю, что не могу на все 100% выполнить задание, я легко раздражаюсь</question2>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question3>Когда я работаю, это выглядит так, будто я ставлю на карту все</question3>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question4>Если возникает проблемная ситуация, чаще всего я принимаю решение одним из последних</question4>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question5>Если два дня подряд у меня нет дела, я теряю покой</question5>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question6>В некоторые дни мои успехи ниже средних</question6>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question7>Я более требователен к себе, чем к другим</question7>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question8>Я доброжелательнее других</question8>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question9>Если я отказываюсь от сложного задания, впоследствии сурово осуждаю себя, так как знаю, что в нем я добился бы успеха</question9>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question10>В процессе работы я нуждаюсь в небольших паузах для отдыха</question10>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question11>Усердие — это не основная моя черта</question11>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question12>Мои достижения в работе не всегда одинаковы</question12>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question13>Другая работа привлекает меня больше той, которой я занят</question13>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question14>Порицание стимулирует меня сильнее похвалы</question14>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question15>Знаю, что коллеги считают меня деловым человеком</question15>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question16>Преодоление препятствий способствует тому, что мои решения становятся более категоричными</question16>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question17>На моем честолюбии легко сыграть</question17>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question18>Если я работаю без вдохновения, это обычно заметно</question18>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question19>Выполняя работу, я не рассчитываю на помощь других</question19>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question20>Иногда я откладываю на завтра то, что должен сделать сегодня</question20>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question21>Нужно полагаться только на самого себя</question21>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question22>В жизни немного вещей важнее денег</question22>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question23>Если мне предстоит выполнить важное задание, я никогда не думаю ни о чем другом</question23>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question24>Я менее честолюбив, чем многие другие</question24>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question25>В конце отпуска я обычно радуюсь, что скоро выйду на работу</question25>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question26>Если я расположен к работе, делаю ее лучше и квалифицированнее, чем другие</question26>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question27>Мне проще и легче общаться с людьми, способными упорно работать</question27>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question28>Когда у меня нет работы, мне не по себе</question28>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question29>Ответственную работу мне приходится выполнять чаще других</question29>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question30>Если мне приходится принимать решение, стараюсь делать это как можно лучше</question30>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question31>Иногда друзья считают меня ленивым</question31>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question32>Мои успехи в какой-то мере зависят от коллег</question32>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question33>Противодействовать воле руководителя бессмысленно</question33>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question34>Иногда не знаешь, какую работу придется выполнять</question34>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question35>Если у меня что-то не ладится, я становлюсь нетерпеливым</question35>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question36>Обычно я обращаю мало внимания на свои достижения</question36>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question37>Если я работаю вместе с другими, моя работа более результативна, чем у других</question37>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question38>Не довожу до конца многое, за что берусь</question38>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question39>Завидую людям, не загруженным работой</question39>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question40>Не завидую тем, кто стремится к власти и положению</question40>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question41>Если я уверен, что стою на правильном пути, для доказательства своей правоты пойду на крайние меры</question41>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+</test>
