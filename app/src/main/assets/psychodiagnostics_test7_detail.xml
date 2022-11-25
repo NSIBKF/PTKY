@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<test>
+    <!--количество вопросов и ответов-->
+    <cnt_questions>34</cnt_questions>
+    <cnt_answers>2</cnt_answers>
+    <!--описание-->
+    <title>Опросник "Честность"</title>
+
+    <description>"Цель данного опросника - выявить уровень честности, открытости испытуемого. Предназначен для профессиональной психологической диагностики. Опросник ""Честность"" хорошо сочетается с теми опросниками, в которых не заложена шкала лжи: при низких показателях по шкале честности результаты диагностики по другим методикам, входящим в батарею методик, можно признавать недостоверными. Опросник ""Честность"" может применяться и как самостоятельная методика, предназначенная для выявления уровня честности, открытости испытуемого. Например, в целях профотбора. Оцениваемые качества Честность Возрастная категория 16+"</description>
+
+    <option>
+        <question1>Бывает, что я смеюсь над неприличным анекдотом</question1>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question2>Если ко мне обращаются вежливо, то я тоже всегда отвечаю вежливо</question2>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question3>У меня бывают денежные затруднения</question3>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question4>Мне всегда приятно, когда человек, который мне не нравится, добивается заслуженного успеха</question4>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question5>Бывало, откладывал то, что требовалось сделать немедленно</question5>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question6>В компании я веду себя не так, как дома</question6>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question7>Я полностью свободен от всяких предрассудков</question7>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question8>Я не всегда говорю правду</question8>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question9>Когда я с кем-нибудь играю, мне всегда хочется победить</question9>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question10>Иногда я сержусь</question10>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question11>В свое оправдание я иногда кое-что выдумывал</question11>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question12>Бывает, что я выхожу из себя</question12>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question13>В детстве я сразу и без пререканий делал всё, что от меня требовалось</question13>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question14>Иногда я раздражен чем-нибудь</question14>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question15>Бывает, что я смехом реагирую на неприличную шутку</question15>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question16>Бывало, я опаздывал к назначенному времени</question16>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question17>Я люблю иногда посплетничать</question17>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question18>Среди тех, кого я знаю, есть такие лица, которые мне очень не нравятся</question18>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question19>Не помню, чтобы меня особенно опечалили неудачи человека, которого я не могу терпеть</question19>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question20>Мне случалось опаздывать</question20>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question21>Мне свойственно иногда прихвастнуть</question21>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question22>Иногда нет никакого желания чем-либо заняться</question22>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question23>У меня бывают иногда мысли, о которых стыдно рассказывать другим</question23>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question24>Иногда я оказывался причиной плохого настроения кого-нибудь из окружающих</question24>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question25>Бывало, что я говорил неправду</question25>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question26>Все мои привычки положительны</question26>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question27>Если я что-то обещал, то всегда сдерживаю слово несмотря ни на что</question27>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question28>Иногда могу похвастаться</question28>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question29>Подростком я проявлял интерес к запретным темам</question29>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question30>Я откладываю иногда на завтра то, что необходимо сделать сегодня</question30>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question31>У меня бывают мысли, которых следовало бы стыдиться</question31>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question32>Я иногда спорю о вещах, о которых слишком мало знаю</question32>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question33>Я люблю не всех своих знакомых</question33>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question34>Я могу про кого-нибудь сказать плохо</question34>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+</test>

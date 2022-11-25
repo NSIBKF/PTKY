@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+    <cnt_questions>35</cnt_questions>
+    <cnt_answers>2</cnt_answers>
+    <!--описание-->
+    <title>Тест "Биополе семьи"</title>
+
+    <description>Диагностика общего психологического климата в семье</description>
+
+    <option>
+        <question1>Наша семья очень дружная</question1>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question2>По субботам и воскресеньям у нас принято завтракать, обедать и ужинать всем вместе</question2>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question3>Присутствие некоторых членов семьи обычно выводит меня из равновесия</question3>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question4>В своем доме я чувствую себя очень уютно</question4>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question5>В жизни нашей семьи есть обстоятельства, которые очень дестабилизируют отношения</question5>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question6>Лучше всего я отдыхаю в домашней обстановке</question6>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question7>Если в семье случаются радоры, то о них все быстро забывают</question7>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question8>Некоторые привычки кого-либо из членов семьи меня очень раздражают</question8>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question9>С полным основанием я могу считать: мой дом - моя крепость</question9>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question10>Визиты гостей обычно благотворно влияют на отношения в семье</question10>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question11>В семье есть очень неуравновешенный человек</question11>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question12>В семье хотя бы кто-нибудь меня всегда утешит, ободрит, вдохновит</question12>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question13>В нашей семье есть член(ы) с очень трудным характером</question13>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question14>У нас в семье все хорошо понимают друг друга</question14>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question15>Замечено: визиты гостей обычно сопровождаются мелкими или значительными конфликтами в семье</question15>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question16>Когда я надолго уезжаю из дома, то очень скучаю по "родным стенам"</question16>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question17>Знакомые, побывав у нас в гостях, обычно отмечают мир и спокойствие в нашей семье</question17>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question18>Время от времени в нашем доме возникают сильные скандалы</question18>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question19>Домашняя атмосфера часто действует на меня угнетающе</question19>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question20>В семье я чувствую себя одиноким и никому не нужным</question20>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question21>У нас принято отдыхать летом всей семьей</question21>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question22>Трудоемкие дела мы обычно выполняем коллективно - генеральная уборка, подготовка к празднику, работа на дачном участке и т. п.</question22>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question23>Члены семьи часто вместе поют или играют на музыкальных инструментах</question23>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question24>В семье преобладает радостная, веселая атмосфера</question24>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question25>Обстановка скорее тягостная, грустная или напряженная</question25>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question26>В семье меня раздражает то, что все или почти все говорят в доме на повышенных тонах</question26>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question27>В семье принято извиняться друг перед другом за допущенные ошибки или причиненные неудобства</question27>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question28>По праздникам у нас обычно веселое застолье</question28>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question29>В семье настолько дискомфортно, что часто идти домой не хочется</question29>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question30>Меня часто обижают дома</question30>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question31>Меня всегда радует порядок в нашей квартире</question31>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question32>Когда я прихожу домой, у меня часто бывает такое .состояний: никого не хочется видеть и слышать</question32>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question33>Отношения в семье весьма натянутые</question33>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question34>Я знаю, что кое-кто в нашей семье чувствует себя неуютно</question34>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question35>К нам часто приходят гости</question35>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+</test>
