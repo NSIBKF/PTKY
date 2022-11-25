@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<test>
+    <!--количество вопросов и ответов-->
+    <cnt_questions>10</cnt_questions>
+    <cnt_answers>7</cnt_answers>
+    <!--описание-->
+    <title>Опросник для определения эмоциональной регуляции (Гросс и Джон, 2003)</title>
+
+    <description>тут описание</description>
+
+    <option>
+        <question1>Чтобы поднять себе настроение, я изменяю свое отношение к ситуации</question1>
+        <answer>Категорически не согласен</answer>
+        <answer>Не согласен</answer>
+        <answer>Скорее не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+        <answer>Скорее согласен</answer>
+        <answer>Согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question2>Для управления своими эмоциями я сдерживаю их внешние проявления</question2>
+        <answer>Категорически не согласен</answer>
+        <answer>Не согласен</answer>
+        <answer>Скорее не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+        <answer>Скорее согласен</answer>
+        <answer>Согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question3>Когда я сталкиваюсь со стрессовой ситуацией, я стараюсь думать о ней таким образом, чтобы сохранять спокойствие</question3>
+        <answer>Категорически не согласен</answer>
+        <answer>Не согласен</answer>
+        <answer>Скорее не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+        <answer>Скорее согласен</answer>
+        <answer>Согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question4>Для управления своими эмоциями я изменяю отношение к ситуации, в которой нахожусь</question4>
+        <answer>Категорически не согласен</answer>
+        <answer>Не согласен</answer>
+        <answer>Скорее не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+        <answer>Скорее согласен</answer>
+        <answer>Согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question5>Чтобы поднять себе настроение (испытать радость или удовольствие), я начинаю думать о чем-нибудь другом</question5>
+        <answer>Категорически не согласен</answer>
+        <answer>Не согласен</answer>
+        <answer>Скорее не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+        <answer>Скорее согласен</answer>
+        <answer>Согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question6>Когда я испытываю положительные эмоции, я слежу за тем, чтобы их не показывать</question6>
+        <answer>Категорически не согласен</answer>
+        <answer>Не согласен</answer>
+        <answer>Скорее не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+        <answer>Скорее согласен</answer>
+        <answer>Согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question7>Чтобы справиться с отрицательными эмоциями, я изменяю свое отношение к ситуации</question7>
+        <answer>Категорически не согласен</answer>
+        <answer>Не согласен</answer>
+        <answer>Скорее не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+        <answer>Скорее согласен</answer>
+        <answer>Согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question8>Я держу свои эмоции при себе</question8>
+        <answer>Категорически не согласен</answer>
+        <answer>Не согласен</answer>
+        <answer>Скорее не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+        <answer>Скорее согласен</answer>
+        <answer>Согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question9>Когда я испытываю отрицательные эмоции, я делаю все, чтобы их не показывать</question9>
+        <answer>Категорически не согласен</answer>
+        <answer>Не согласен</answer>
+        <answer>Скорее не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+        <answer>Скорее согласен</answer>
+        <answer>Согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question10>Чтобы справиться с отрицательными эмоциями (такими как грусть или злость), я начинаю думать о чем-нибудь другом</question10>
+        <answer>Категорически не согласен</answer>
+        <answer>Не согласен</answer>
+        <answer>Скорее не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+        <answer>Скорее согласен</answer>
+        <answer>Согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+</test>

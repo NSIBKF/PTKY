@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<test>
+    <!--количество вопросов и ответов-->
+    <cnt_questions>30</cnt_questions>
+    <cnt_answers>6</cnt_answers>
+    <!--описание-->
+    <title>Тест на эмоциональный интеллект методика Н. Холла</title>
+
+    <description>тут описание</description>
+
+    <option>
+        <question1>Для меня как отрицательные, так и положительные эмоции служат источником знания о том, как поступать в жизни</question1>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question2>Отрицательные эмоции помогают мне понять, что я должен изменить в моей жизни</question2>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question3>Я спокоен, когда испытываю давление со стороны</question3>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question4>Я способен наблюдать изменение своих чувств</question4>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question5>Когда необходимо, я могу быть спокойным и сосредоточенным, чтобы действовать в соответствии с запросами жизни</question5>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question6>Когда необходимо, я могу вызвать у себя широкий спектр положительных эмоций, такие как веселье, радость, внутренний подъем и юмор</question6>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question7>Я слежу за тем, как я себя чувствую</question7>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question8>После того как что-то расстроило меня, я могу легко совладать со своими чувствами</question8>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question9>Я способен выслушивать проблемы других людей</question9>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question10>Я не зацикливаюсь на отрицательных эмоциях</question10>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question11>Я чувствителен к эмоциональным потребностям других</question11>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question12>Я могу действовать успокаивающе на других людей</question12>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question13>Я могу заставить себя снова и снова встать перед лицом препятствия</question13>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question14>Я стараюсь подходить творчески к жизненным проблемам</question14>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question15>Я адекватно реагирую на настроения, побуждения и желания других людей</question15>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question16>Я могу легко входить в состояние спокойствия, готовности и сосредоточенности</question16>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question17>Когда позволяет время, я обращаюсь к своим негативным чувствам и разбираюсь, в чем проблема</question17>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question18>Я способен быстро успокоиться после неожиданного огорчения</question18>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question19>Знание моих истинных чувств важно для поддержания «хорошей формы»</question19>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question20>Я хорошо понимаю эмоции других людей, даже если они не выражены открыто</question20>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question21>Я хорошо могу распознавать эмоции по выражению лица</question21>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question22>Я могу легко отбросить негативные чувства, когда необходимо действовать</question22>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question23>Я хорошо улавливаю знаки в общении, которые указывают на то, в чем другие нуждаются</question23>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question24>Люди считают меня хорошим знатоком переживаний других людей</question24>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question25>Люди, осознающие свои истинные чувства, лучше управляют своей жизнью</question25>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question26>Я способен улучшить настроение других людей</question26>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question27>Со мной можно посоветоваться по вопросам отношений между людьми</question27>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question28>Я хорошо настраиваюсь на эмоции других людей</question28>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question29>Я помогаю другим использовать их побуждения для достижения личных целей</question29>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+    <option>
+        <question30>Я могу легко отключиться от переживания неприятностей</question30>
+        <answer>Полностью не согласен</answer>
+        <answer>В основном не согласен</answer>
+        <answer>Отчасти не согласен</answer>
+        <answer>Отчасти согласен</answer>
+        <answer>В основном согласен</answer>
+        <answer>Полностью согласен</answer>
+    </option>
+
+</test>

@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<test>
+    <!--количество вопросов и ответов-->
+    <cnt_questions>75</cnt_questions>
+    <cnt_answers>2</cnt_answers>
+    <!--описание-->
+    <title>Опросник диагностики состояния агрессии А.Басс А.Дарки</title>
+
+    <description>тут описание</description>
+
+    <option>
+        <question1>Временами не могу справиться с желанием навредить кому-либо</question1>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question2>Иногда могу посплетничать о людях, которых не люблю</question2>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question3>Легко раздражаюсь, но легко и успокаиваюсь</question3>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question4>Если меня не попросить по-хорошему, просьбу не выполню</question4>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question5>Не всегда получаю то, что мне положено</question5>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question6>Знаю, что люди говорят обо мне за моей спиной</question6>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question7>Если не одобряю поступки других людей, даю им это почувствовать</question7>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question8>Если случается обмануть кого-либо, испытываю угрызения совести</question8>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question9>Мне кажется, что я не способен ударить человека</question9>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question10>Никогда не раздражаюсь настолько, чтобы разбрасывать вещи</question10>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question11>Всегда снисходителен к чужим недостаткам</question11>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question12>Когда установленное правило не нравится мне, хочется нарушить его</question12>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question13>Другие почти всегда умеют использовать благоприятные обстоятельства</question13>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question14>Меня настораживают люди, которые относятся ко мне более дружелюбно, чем я этого ожидаю</question14>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question15>Часто бываю не согласен с людьми</question15>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question16>Иногда на ум приходят мысли, которых я стыжусь</question16>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question17>Если кто-нибудь ударит меня, я не отвечу ему тем же</question17>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question18>В раздражении хлопаю дверьми</question18>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question19>Я более раздражителен, чем кажется со стороны</question19>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question20>Если кто-то корчит из себя начальника, я поступаю ему наперекор</question20>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question21>Меня немного огорчает моя судьба</question21>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question22>Думаю, что многие люди не любят меня</question22>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question23>Не могу удержаться от спора, если люди не согласны со мной</question23>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+    <option>
+        <question24>Увиливающие от работы должны испытывать чувство вины</question24>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+    <option>
+        <question25>Кто оскорбляет меня или мою семью, напрашивается на драку</question25>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+    <option>
+        <question26>Я не способен на грубые шутки</question26>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+
+    <option>
+        <question27>Меня охватывает ярость, когда надо мной насмехаются</question27>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+    <option>
+        <question28>Когда люди строят из себя начальников, я делаю все чтобы они не зазнавались</question28>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+
+    <option>
+        <question29>Почти каждую неделю вижу кого-нибудь из тех, кто мне не нравится</question29>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+    <option>
+        <question30>Довольно многие завидуют мне</question30>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+
+    <option>
+        <question31>Требую, чтобы люди уважали мои права</question31>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+    <option>
+        <question32>Меня огорчает, что я мало делаю для своих родителей</question32>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+    <option>
+        <question33>Люди, которые постоянно изводят вас, стоят того, чтобы их щелкнули по носу</question33>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+    <option>
+        <question34>От злости иногда бываю мрачным</question34>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+    <option>
+        <question35>Если ко мне относятся хуже, чем я того заслуживаю, я не огорчаюсь</question35>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+    <option>
+        <question36>Если кто-то пытается вывести меня из себя, я не обращаю на него внимания</question36>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+
+    <option>
+        <question37>Хотя я и не показываю этого, иногда меня гложет зависть</question37>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+    <option>
+        <question38>Иногда мне кажется, что надо мной смеются</question38>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+
+    <option>
+        <question39>Даже если злюсь, не прибегаю к сильным выражениям</question39>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question40>Хочется, чтобы мои грехи были прощены</question40>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question41>Редко даю сдачи, даже если кто-нибудь ударит меня</question41>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question42>Обижаюсь, когда иногда получается не по-моему</question42>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question43>Иногда люди раздражают меня своим присутствием</question43>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question44>Нет людей, которых бы я по-настоящему ненавидел</question44>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+    <option>
+        <question45>Мой принцип: «Никогда не доверять чужакам»</question45>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question46>Если кто-то раздражает меня, готов сказать ему все, что о нем думаю</question46>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+    <option>
+        <question47>Делаю много такого, о чем впоследствии сожалею</question47>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+    <option>
+        <question48>Если разозлюсь, могу ударить кого-нибудь</question48>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+    <option>
+        <question49>С десяти лет у меня не было вспышек гнева</question49>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+    <option>
+        <question50>Часто чувствую себя, как пороховая бочка, готовая взорваться</question50>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+
+    <option>
+        <question51>Если бы знали, что я чувствую, меня бы считали человеком, с которым нелегко ладить</question51>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question52>Всегда думаю о том, какие тайные причины заставляют людей делать что-нибудь приятное для меня</question52>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question53>Когда кричат на меня, кричу в ответ</question53>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question54>Неудачи огорчают меня</question54>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question55>Дерусь не реже и не чаще других</question55>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question56>Могу вспомнить случаи, когда был настолько зол, что хватал первую попавшуюся под руку вещь и ломал ее</question56>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question57>Иногда чувствую, что готов первым начать драку</question57>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question58>Иногда чувствую, что жизнь со мной поступает несправедливо</question58>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question59>Раньше думал, что большинство людей говорит правду, но теперь этому не верю</question59>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question60>Ругаюсь только от злости</question60>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question61>Когда поступаю неправильно, меня мучает совесть</question61>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question62>Если для защиты своих прав нужно применить физическую силу, я применяю ее</question62>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question63>Иногда выражаю свой гнев тем, что стучу по столу</question63>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question64>Бываю грубоват по отношению к людям, которые мне не нравятся</question64>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question65>У меня нет врагов, которые хотели бы мне навредить</question65>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question66>Не умею поставить человека на место, даже если он этого заслуживает</question66>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question67>Часто думаю, что живу неправильно</question67>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question68>Знаю людей, которые способны довести меня до драки</question68>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question69>Не огорчаюсь из-за мелочей</question69>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question70>Мне редко приходит в голову мысль о том, что люди пытаются разозлить или оскорбить меня</question70>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question71>Часто просто угрожаю людям, не собираясь приводить угрозы в исполнение</question71>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question72>В последнее время я стал занудой</question72>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question73>В споре часто повышаю голос</question73>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question74>Стараюсь скрывать плохое отношение к людям</question74>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+    <option>
+        <question75>Лучше соглашусь с чем-либо, чем стану спорить</question75>
+        <answer>да</answer>
+        <answer>нет</answer>
+    </option>
+
+</test>

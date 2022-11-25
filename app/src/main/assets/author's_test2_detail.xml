@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<test>
+    <!--количество вопросов и ответов-->
+    <cnt_questions>50</cnt_questions>
+    <cnt_answers>4</cnt_answers>
+    <!--описание-->
+    <title>Диагностика личностной креативности по методике Е.Е.Туник</title>
+
+    <description>тут описание</description>
+
+    <option>
+        <question1>Когда я не знаю правильного ответа, я попробую о нём догадаться</question1>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question2>Мне нравится рассматривать предметы во всех деталях, чтобы обнаружить нечто новое</question2>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question3>Когда я чего-то не знаю, я всегда спрашиваю об этом</question3>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question4>Я не люблю планировать свои дела преждевременно</question4>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question5>Если я собираюсь играть в какую-то игру, я должен быть уверен, что выиграю</question5>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question6>Я люблю представлять что-то, что мне предстоит сделать или узнать</question6>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question7>Если у меня что-то не получается сразу, я буду делать это, пока не получится</question7>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question8>Я никогда не буду играть в такую игру, которую не знают другие</question8>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question9>Лучше делать всё привычным способом, чем искать новые</question9>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question10>Мне нравится выяснять, обстоит ли что-то так, как об этом говорят</question10>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question11>Я люблю открывать для себя новые виды деятельности</question11>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question12>Мне всегда очень нравится заводить новых друзей</question12>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question13>Я люблю представлять то, чего со мной никогда не было</question13>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question14>Я никогда не мечтаю о том, что смогу стать известной творческой личностью</question14>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question15>Иногда мои идеи так интересны мне, что я могу позабыть про всё на свете</question15>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question16>Жить и работать на космической станции было бы гораздо лучше, чем на Земле</question16>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question17>Когда я не знаю, что будет дальше, я начинаю нервничать</question17>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question18>Мне нравится всё необычное, всё то, что не похоже на привычные вещи</question18>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question19>Часто я пытаюсь представить себе мысли других людей</question19>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question20>Я люблю читать рассказы и смотреть передачи о событиях прошлого</question20>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question21>Я люблю обсуждать свои идеи вместе со своими друзьями</question21>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question22>Даже если я ошибаюсь или делаю что-то неправильно, я остаюсь спокоен</question22>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question23>В будущем я бы хотел сделать нечто такое, чего никто не делал прежде</question23>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question24>Я подбираю себе друзей, которые делают всё, как обычно</question24>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question25>Меня часто не устраивают многие из существующих правил и ограничений</question25>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question26>Я люблю решать даже такие задачи, в которых нет правильного ответа</question26>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question27>Есть много всего, с чем я хотел бы провести эксперименты</question27>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question28>Если однажды я найду ответ на вопрос, я больше не стану искать других ответов</question28>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question29>Мне никогда не нравились публичные выступления</question29>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question30>Во время чтения книги или просмотра фильма я представляю себя главным героем</question30>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+
+    <option>
+        <question31>Мне нравится представлять, как жили люди в прошлом</question31>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question32>Я не люблю, когда мои товарищи проявляют нерешительность</question32>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question33>Мне нравится разбирать старые коробки и чемоданы просто ради любопытства</question33>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question34>Я бы хотел, чтобы мои родители и наставники никогда не менялись</question34>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question35>Я всегда стараюсь доверять своей интуиции и внутреннему чутью</question35>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question36>Мне нравится что-то предполагать, а затем поверять, был ли я прав</question36>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question37>Я люблю играть в игры, в которых нужно просчитывать свои действия</question37>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question38>Мне всегда было интересно устройство различных механизмов</question38>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question39>Мои лучшие друзья всегда критикуют глупые идеи</question39>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question40>Мне нравится придумывать что-то, пусть даже это и неприменимо на практике</question40>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question41>Я люблю, когда всегда и везде соблюдается порядок</question41>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question42>Я бы хотел искать ответы на вопросы, которые могут возникнуть позже</question42>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question43>Мне нравится делать что-то новое, чтобы узнать, что получится</question43>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question44>В любимые игры я играю ради удовольствия, а не чтобы выиграть</question44>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question45>Я люблю думать о чём-то таком, что никому ещё не приходило в голову</question45>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question46>Если я вижу картину, на которой кто-то изображён, я хочу узнать, кто это</question46>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question47>Мне нравится перелистывать журналы и книги просто ради интереса</question47>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question48>Мне кажется, что на многие вопросы можно дать один верный ответ</question48>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question49>Мне нравится спрашивать о чём-то таком, о чём другие обычно не спрашивают</question49>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+    <option>
+        <question50>И на работе и дома у меня всегда есть много интересных дел</question50>
+        <answer>Согласен</answer>
+        <answer>Согласен отчасти</answer>
+        <answer>Не согласен</answer>
+        <answer>Затрудняюсь с ответом</answer>
+    </option>
+
+</test>
