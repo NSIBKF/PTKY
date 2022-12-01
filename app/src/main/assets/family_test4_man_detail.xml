@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+    <cnt_questions>32</cnt_questions>
+    <cnt_answers>3</cnt_answers>
+    <!--описание-->
+    <title>Семейный тест</title>
+
+    <description>Равноправный или неравноправный союз</description>
+
+    <option>
+        <question1>Как вы распределяете свои домашние дела:</question1>
+        <answer>а) в зависимости от служебных</answer>
+        <answer>б) согласно склонностям, тому, что каждый из вас предпочитает</answer>
+        <answer>в) они целиком лежат на вашей супруге</answer>
+    </option>
+
+    <option>
+        <question2>Делитесь ли вы с женой служебными и личными проблемами:</question2>
+        <answer>а) да</answer>
+        <answer>б) иногда</answer>
+        <answer>в) нет</answer>
+    </option>
+
+    <option>
+        <question3>Есть ли что-то в вашем поведении, что постоянно тяготит вашу жену:выпивки, грубое отношение, женщины...</question3>
+        <answer>а) нет</answer>
+        <answer>б) да, но не постоянно</answer>
+        <answer>в) да</answer>
+    </option>
+
+    <option>
+        <question4>Помогаете ли вы ей в решающие моменты:</question4>
+        <answer>а) действиями и советами</answer>
+        <answer>б) только советами</answer>
+        <answer>в) не помогаете</answer>
+    </option>
+
+    <option>
+        <question5>Интересуетесь ли вы ее здоровьем, целями, стремлениями, увлечениями:</question5>
+        <answer>а) разумеется</answer>
+        <answer>б) на это у вас не хватает времени</answer>
+        <answer>в) предпочитаете посмотреть телевизор или поиграть в любимую игру</answer>
+    </option>
+
+    <option>
+        <question6>Радуетесь ли ее успехам, изменениям в интерьере квартиры, кулинарным сюрпризам, ее изысканным туалетам, занятиям спортом:</question6>
+        <answer>а) да, всегда ее поощряете</answer>
+        <answer>б) немного</answer>
+        <answer>в) нет</answer>
+    </option>
+
+    <option>
+        <question7>Критически (по-дружески, конечно) ли вы относитесь к своей жене:</question7>
+        <answer>а) да</answer>
+        <answer>б) вы не критичны</answer>
+        <answer>в) можно сказать, что вы суровы</answer>
+    </option>
+
+    <option>
+        <question8>Прислушиваетесь ли вы к ее мнению:</question8>
+        <answer>а) да, вы принимаете его во внимание, учитываете</answer>
+        <answer>б) иногда, когда она настаивает</answer>
+        <answer>в) нет</answer>
+    </option>
+
+    <option>
+        <question9>Взыскательны ли вы к самому себе:</question9>
+        <answer>а) очень</answer>
+        <answer>б) немного</answer>
+        <answer>в) нет</answer>
+    </option>
+
+    <option>
+        <question10>Принимаете ли вы активное участие в уходе за детьми и их воспитании:</question10>
+        <answer>а) разумеется</answer>
+        <answer>б) когда есть время</answer>
+        <answer>в) нет</answer>
+    </option>
+
+    <option>
+        <question11>Стимулируете ли вы участие детей в помощи в домашнем хозяйстве:</question11>
+        <answer>а) да, вы и сами помогаете жене в хозяйстве</answer>
+        <answer>б) вы разговариваете с детьми, внушаете им, что это важно</answer>
+        <answer>в) нет</answer>
+    </option>
+
+    <option>
+        <question12>Приучаете ли вы детей к тому, чтобы они были внимательны к матери:</question12>
+        <answer>а) да, вы и сами к ней внимательны</answer>
+        <answer>б) вы говорите им, что это важно</answer>
+        <answer>в) нет</answer>
+    </option>
+
+    <option>
+        <question13>Поддерживаете ли вы авторитет жены в глазах детей:</question13>
+        <answer>а) разумеется</answer>
+        <answer>б) не очень</answer>
+        <answer>в) нет</answer>
+    </option>
+
+    <option>
+        <question14>Когда вы спорите, то:</question14>
+        <answer>а) выслушиваете друг друга внимательно</answer>
+        <answer>б) стремитесь выслушать друг друга, но это не всегда удается</answer>
+        <answer>в) в большинстве случаев спор перерастает в ссору</answer>
+    </option>
+
+    <option>
+        <question15>Самокритичны ли вы во время спора:</question15>
+        <answer>а) обычно да</answer>
+        <answer>б) стараетесь</answer>
+        <answer>в) нет</answer>
+    </option>
+
+    <option>
+        <question16>Вы делаете что-нибудь, чтобы исправить свои ошибки:</question16>
+        <answer>а) да, сразу же</answer>
+        <answer>б) да, но спустя какое-то время</answer>
+        <answer>в) нет</answer>
+    </option>
+
+    <option>
+        <question17>Приходится ли вам напоминать, что зарплату нужно оставлять дома:</question17>
+        <answer>а) нет, не нужно</answer>
+        <answer>б) случается</answer>
+        <answer>в) у вас нет общих денег, каждый сам тратит свои</answer>
+    </option>
+
+    <option>
+        <question18>Если исходить из того, что под понятием «глава семьи» подразумевается тот, кто вносит больший финансовый вклад и распределяет семейный бюджет, то не возникает ли у вас споров по поводу того, кто должен носить этот «титул»:</question18>
+        <answer>а) нет, у вас в семье есть признанный лидер</answer>
+        <answer>б) каждый из вас уважает мнение другого в решении денежных вопросов</answer>
+        <answer>в) случается, что вы оспариваете какие-то решения</answer>
+    </option>
+
+    <option>
+        <question19>Бывают ли случаи, когда вы считаете необходимым посоветоваться с женой, даже если уверены в правильности принимаемого решения:</question19>
+        <answer>а) да, ради ее авторитета в глазах детей</answer>
+        <answer>б) очень редко</answer>
+        <answer>в) нет</answer>
+    </option>
+
+    <option>
+        <question20>Считаете ли вы, что удовлетворяете жену как сексуальный партнер:</question20>
+        <answer>а) да</answer>
+        <answer>б) едва ли</answer>
+        <answer>в) у вас половая несовместимость</answer>
+    </option>
+
+    <option>
+        <question21>Есть ли у вас внебрачные связи (простите за нескромный вопрос, но вы понимаете, что он важен):</question21>
+        <answer>а) нет</answer>
+        <answer>б) редко</answer>
+        <answer>в) постоянно</answer>
+    </option>
+
+    <option>
+        <question22>Потворствуете ли вы ее хобби или любимым занятиям:</question22>
+        <answer>а) нет</answer>
+        <answer>б) когда как</answer>
+        <answer>в) да</answer>
+    </option>
+
+    <option>
+        <question23>Не слишком ли вы увлекаетесь развлечениями в своих мужских компаниях - футбол, рыбалка, туризм, карты:</question23>
+        <answer>а) не слишком</answer>
+        <answer>б) жена считает, что слишком</answer>
+        <answer>в) когда как</answer>
+    </option>
+
+    <option>
+        <question24>Разрешаете ли вы ей брать машину, когда она нужна вам самому:</question24>
+        <answer>а) да</answer>
+        <answer>б) если вы можете без нее обойтись</answer>
+        <answer>в) она садится за руль только с вами</answer>
+    </option>
+
+    <option>
+        <question25>Как вы ведете себя, когда за рулем жена:</question25>
+        <answer>а)спокойно</answer>
+        <answer>б) даете ей советы, но только в критических ситуациях</answer>
+        <answer>в) часто ее поучаете</answer>
+    </option>
+
+    <option>
+        <question26>Торопитесь ли вы скорее домой после продолжительного отсутствия:</question26>
+        <answer>а) разумеется</answer>
+        <answer>б) не очень</answer>
+        <answer>в) нет</answer>
+    </option>
+
+
+    <option>
+        <question27>Дарите ли вы жене цветы и подарки по праздникам:</question27>
+        <answer>а) даже и без повода</answer>
+        <answer>б) иногда</answer>
+        <answer>в) нет</answer>
+    </option>
+
+    <option>
+        <question28>Как вы проводите отпуск:</question28>
+        <answer>а) предпочитаю отдыхать с семьей</answer>
+        <answer>б) в зависимости от обстоятельств</answer>
+        <answer>в) ваши вкусы в том, как проводить отпуск, расходятся</answer>
+    </option>
+
+    <option>
+        <question29>На каких качествах своей жены вы акцентируете внимание:</question29>
+        <answer>а) положительных</answer>
+        <answer>б) отрицательных</answer>
+        <answer>в) стараюсь не делать этого</answer>
+    </option>
+
+    <option>
+        <question30>С удовольствием ли вы делаете то, что ее порадует:</question30>
+        <answer>а) да</answer>
+        <answer>б) не всегда</answer>
+        <answer>в) нет</answer>
+    </option>
+
+    <option>
+        <question31>Как вы думаете, что вас связывает с женой:</question31>
+        <answer>а) любовь, дружба и общие цели</answer>
+        <answer>б) привычка, дети</answer>
+        <answer>в) квартира, общее имущество</answer>
+    </option>
+
+    <option>
+        <question32>Если бы вам снова предстояло выбрать жену:</question32>
+        <answer>а) выбрал бы ее же</answer>
+        <answer>б) едва ли</answer>
+        <answer>в) сделал бы иной выбор</answer>
+    </option>
+
+</test>

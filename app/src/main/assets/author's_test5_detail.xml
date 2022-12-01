@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<test>
+    <!--количество вопросов и ответов-->
+    <cnt_questions>48</cnt_questions>
+    <cnt_answers>2</cnt_answers>
+    <!--описание-->
+    <title>Тест аудиал, визуал, кинестетик (диагностика доминирующей перцептивной модальности С. Ефремцева / методика на восприятие)</title>
+
+    <description>тут описание</description>
+
+    <option>
+        <question1>Люблю наблюдать за облаками и звездами</question1>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question2>Часто напеваю себе потихоньку</question2>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question3>Не признаю моду, которая неудобна</question3>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question4>Люблю ходить в сауну</question4>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question5>В автомашине цвет для меня имеет значение</question5>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question6>Узнаю по шагам, кто вошел в помещение</question6>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question7>Меня развлекает подражание диалектам</question7>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question8>Внешнему виду придаю серьезное значение</question8>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question9>Мне нравится принимать массаж</question9>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question10>Когда есть время, люблю наблюдать за людьми</question10>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question11>Плохо себя чувствую, когда не наслаждаюсь движением</question11>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question12>Видя одежду в витрине, знаю, что мне будет хорошо в ней</question12>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question13>Когда услышу старую мелодию, ко мне возвращается прошлое</question13>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+
+    <option>
+        <question14>Люблю читать во время еды</question14>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question15>Люблю поговорить по телефону</question15>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question16>У меня есть склонность к полноте</question16>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question17>Предпочитаю слушать рассказ, который кто-то читает, чем читать самому</question17>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question18>После плохого дня мой организм в напряжении</question18>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question19>Охотно и много фотографирую</question19>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question20>Долго помню, что мне сказали приятели или знакомые</question20>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question21>Легко могу отдать деньги за цветы, потому что они украшают жизнь</question21>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question22>Вечером люблю принять горячую ванну</question22>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question23>Стараюсь записывать свои личные дела</question23>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question24>Часто разговариваю с собой</question24>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question25>После длительной езды на машине долго прихожу в себя</question25>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question26>Тембр голоса многое мне говорит о человеке</question26>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question27>Придаю значение манере одеваться, свойственной другим</question27>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question28>Люблю потягиваться, расправлять конечности, разминаться</question28>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question29>Слишком твердая или слишком мягкая постель для меня мука</question29>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question30>Мне нелегко найти удобную обувь</question30>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question31>Люблю смотреть теле- и видеофильмы</question31>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question32>Даже спустя годы могу узнать лица, которые когда-либо видел</question32>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question33>Люблю ходить под дождем, когда капли стучат по зонтику</question33>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question34>Люблю слушать, когда говорят</question34>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question35>Люблю заниматься подвижным спортом или выполнять какие-либо двигательные упражнения, иногда и потанцевать</question35>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question36>Когда близко тикает будильник, не могу уснуть</question36>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question37>У меня неплохая стереоаппаратура</question37>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question38>Когда слушаю музыку, отбиваю такт ногой</question38>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question39>На отдыхе не люблю осматривать памятники архитектуры</question39>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question40>Не выношу беспорядок</question40>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question41>Не люблю синтетических тканей</question41>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question42>Считаю, что атмосфера в помещении зависит от освещения</question42>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question43>Часто хожу на концерты</question43>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question44>Пожатие руки много говорит мне о данной личности</question44>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question45>Охотно посещаю галереи и выставки</question45>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question46>Серьезная дискуссия – это интересно</question46>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question47>Через прикосновение можно сказать значительно больше, чем словами</question47>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+    <option>
+        <question48>В шуме не могу сосредоточиться</question48>
+        <answer>Да</answer>
+        <answer>Нет</answer>
+    </option>
+
+</test>
