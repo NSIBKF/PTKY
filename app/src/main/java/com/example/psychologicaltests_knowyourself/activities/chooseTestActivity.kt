@@ -123,19 +123,21 @@ class chooseTestActivity : AppCompatActivity() {
                 result = arrayOf("character_test_detail.xml", "character_test2_detail.xml")
             }
             1 -> {
-                result = arrayOf("character_test_detail.xml", "character_test_detail.xml")
+                result = arrayOf("life_test_detail.xml", "life_test_detail.xml")
             }
             2 -> {
-                result = arrayOf("career_test_detail.xml", "career_test2_detail.xml")
+                result = arrayOf("career_test_detail.xml", "career_test2_detail.xml", "career_test3_detail.xml")
             }
             3 -> {
-                result = arrayOf("mental_test_detail.xml", "character_test_detail.xml")
+                result = arrayOf("mental_test_detail.xml", "mental_test_detail.xml")
             }
             4 -> {
-                result = arrayOf("family_test_detail.xml", "character_test_detail.xml")
+                result = arrayOf("family_test_detail.xml", "family_test2_detail.xml", "family_test3_detail.xml")
             }
             5 -> {
-                result = arrayOf("psychodiagnostics_test_detail.xml", "psychodiagnostics_test2_detail.xml")
+                result = arrayOf("psychodiagnostics_test_detail.xml", "psychodiagnostics_test2_detail.xml", "psychodiagnostics_test3_detail.xml",
+                    "psychodiagnostics_test4_detail.xml", "psychodiagnostics_test5_detail.xml", "psychodiagnostics_test6_detail.xml",
+                    "psychodiagnostics_test7_detail.xml")
             }
         }
         return result

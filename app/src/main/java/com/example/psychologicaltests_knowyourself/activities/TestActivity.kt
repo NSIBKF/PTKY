@@ -53,7 +53,7 @@ class TestActivity : AppCompatActivity() {
                 lateTestFilling("character_test2_detail.xml")
             }
             "11" -> {
-                lateTestFilling("character_test_detail.xml")
+                lateTestFilling("life_test_detail.xml")
             }
             "12" -> {
                 lateTestFilling("character_test_detail.xml")
@@ -63,6 +63,9 @@ class TestActivity : AppCompatActivity() {
             }
             "22" -> {
                 lateTestFilling("career_test2_detail.xml")
+            }
+            "23" -> {
+                lateTestFilling("career_test3_detail.xml")
             }
             "31" -> {
                 lateTestFilling("mental_test_detail.xml")
@@ -74,13 +77,34 @@ class TestActivity : AppCompatActivity() {
                 lateTestFilling("family_test_detail.xml")
             }
             "42" -> {
-                lateTestFilling("character_test_detail.xml")
+                lateTestFilling("family_test2_detail.xml")
             }
+            "43" -> {
+                lateTestFilling("family_test3_detail.xml")
+            }
+//            "44" -> {
+//                lateTestFilling("family_test4_detail.xml")
+//            }
             "51" -> {
                 lateTestFilling("psychodiagnostics_test_detail.xml")
             }
             "52" -> {
                 lateTestFilling("psychodiagnostics_test2_detail.xml")
+            }
+            "53" -> {
+                lateTestFilling("psychodiagnostics_test3_detail.xml")
+            }
+            "54" -> {
+                lateTestFilling("psychodiagnostics_test4_detail.xml")
+            }
+            "55" -> {
+                lateTestFilling("psychodiagnostics_test5_detail.xml")
+            }
+            "56" -> {
+                lateTestFilling("psychodiagnostics_test6_detail.xml")
+            }
+            "57" -> {
+                lateTestFilling("psychodiagnostics_test7_detail.xml")
             }
         }
     }
